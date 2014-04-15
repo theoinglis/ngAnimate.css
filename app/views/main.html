@@ -1,0 +1,20 @@
+<div>
+  <h1>ngAnimate.css</h1>
+  <h4>
+    Classes Applied:<br/>
+    nga-default {{classes}}
+  </h4>
+  <div class="form-group has-feedback has-no-label">
+        <input type="text" class="form-control" ng-model="filterText" placeholder="Filter the animation types ...">
+        <span class="glyphicon glyphicon-filter form-control-feedback"></span>
+  </div>
+  <ul class="list-group">
+
+    <li class="list-group-item nga-default {{classes}}" ng-repeat="item in animationTypes | filter:filterText">
+      <span>{{item.name}}</span>
+      <span class="pull-right">
+        <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+      </span>
+    </li>
+  </ul>
+</div>

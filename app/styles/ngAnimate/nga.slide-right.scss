@@ -1,0 +1,49 @@
+@import 'base';
+
+@mixin slide-right-default {
+    position: relative;
+    overflow: hidden;
+}
+@mixin slide-right-hidden {
+    left: 100%;
+}
+@mixin slide-right-visible {
+    left: 0;
+}
+
+.nga-slide-right-add {
+    @include slide-right-default;
+
+    &.ng-enter {
+        @include slide-right-hidden;
+    }
+    &.ng-enter.ng-enter-active {
+        @include slide-right-visible;
+    }
+}
+.nga-slide-right-remove {
+    @include slide-right-default;
+
+    &.ng-leave.ng-leave-active {
+        @include slide-right-hidden;
+    }
+    &.ng-leave{
+        @include slide-right-visible;
+    }
+}
+.nga-slide-right-move {
+    @include slide-right-default;
+
+    &.ng-move {
+        @include slide-right-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include slide-right-visible;
+    }
+}
+
+.nga-slide-right-all {
+    @extend .nga-slide-right-add;
+    @extend .nga-slide-right-remove;
+    @extend .nga-slide-right-move;
+}

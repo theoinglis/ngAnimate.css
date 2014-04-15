@@ -1,0 +1,55 @@
+@import 'base';
+
+@mixin slide-up-default {
+    position: relative;
+    overflow: hidden;
+}
+@mixin slide-up-hidden {
+    bottom: 42px;
+}
+@mixin slide-up-visible {
+    bottom: 0;
+}
+
+.nga-slide-up-add {
+    @include slide-up-default;
+
+    &.ng-enter {
+        @include slide-up-hidden;
+    }
+    &.ng-enter.ng-enter-active {
+        @include slide-up-visible;
+    }
+}
+.nga-slide-up-remove {
+    @include slide-up-default;
+
+    &.ng-leave.ng-leave-active {
+        @include slide-up-hidden;
+    }
+    &.ng-leave{
+        @include slide-up-visible;
+    }
+}
+.nga-slide-up-move {
+    @include slide-up-default;
+
+    &.ng-move {
+        @include slide-up-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include slide-up-visible;
+    }
+}
+
+.nga-slide-up-all {
+    @extend .nga-slide-up-add;
+    @extend .nga-slide-up-remove;
+    @extend .nga-slide-up-move;
+}
+
+.nga-slide-up {
+    @extend .nga-slide-up-all;
+    @extend .nga-collapse-all;
+    @extend .nga-fade-all;
+}
