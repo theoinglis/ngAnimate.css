@@ -1,0 +1,39 @@
+@import "../ngAnimate/common/_helpers";
+
+.input-container {
+    height: 14px;
+    width: 14px;
+    border: 2px solid;
+    border-radius: 7px;
+
+    input {
+        display: none;
+    }
+
+    .selection-item {
+        @include transition(all 0.5s ease-in-out);
+
+        opacity: 0;
+        &.selected {
+            opacity: 1;
+        }
+    }
+}
+.checkbox-container {
+    .selection-item {
+        position: relative;
+        top: -6px;
+
+        color: black;
+    }
+}
+
+.radio-container {
+    position: relative;
+
+    .selection-item {
+        border: 5px solid transparent;
+        border-radius: 7px;
+        background-color: black;
+    }
+}

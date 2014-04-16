@@ -97,5 +97,29 @@ body {
 
 .list-group-item {
     max-height: 42px;
-    height: 42px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.item-modify {
+    display: inline-block;
+    height: 100%;
+    width: 25px;
+
+    text-align: center;
+}
+
+.item-recommended {
+    color: #AEEDF5;
+    border-color: #AEEDF5;
+}
+.item-all {
+    color: #72DAE8;
+    border-color: #72DAE8;
+}
+.item-component {
+    color: #2BCBE0;
+    border-color: #2BCBE0;
 }

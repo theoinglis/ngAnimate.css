@@ -4,8 +4,8 @@ angular.module('Helpers')
 			return {
 				link: function($scope, $element, attrs) {
 
-					$element.tooltip();
-					
+					$element.attr('data-toggle', 'tooltip').tooltip();
+
 					attrs.$observe('tooltip', function(text) {
 						$element.attr('data-original-title', text)
 								.tooltip('fixTitle');

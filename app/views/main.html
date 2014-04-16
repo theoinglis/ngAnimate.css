@@ -2,7 +2,7 @@
   <h1>ngAnimate.css</h1>
   <h4>
     Classes Applied:<br/>
-    nga-default {{classes}}
+    nga-default nga-stagger {{classes}}
   </h4>
   <div class="form-group has-feedback has-no-label">
         <input type="text" class="form-control" ng-model="filterText" placeholder="Filter the animation types ...">
@@ -10,13 +10,52 @@
   </div>
   <ul class="list-group">
 
-    <li class="list-group-item nga-default {{classes}} nga-stagger" ng-repeat="item in animationTypes | filter:{name:filterText}">
-      <span>{{item.name}}</span>
+    <li class="list-group-item header">
+      <span class="list-group-item-text">Animation</span>
       <span class="pull-right">
-        <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
-              data-toggle='tooltip' data-placement='left' tooltip='{{item.condition}}'>
+        <span class="item-modify" tooltip="Condition">
+          C
         </span> 
-        <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
+        <span class="item-modify item-recommended" tooltip="Recommended">
+          R
+        </span>
+        <span class="item-modify item-all" tooltip="All">
+          A
+        </span>
+        <span class="item-modify item-component" tooltip="Add">
+          A
+        </span>
+        <span class="item-modify item-component" tooltip="Remove">
+          R
+        </span>
+        <span class="item-modify item-component" tooltip="Move">
+          M
+        </span>
+      </span>
+    </li>
+    <li class="list-group-item nga-default nga-stagger {{classes}}" ng-repeat="item in animationTypes | filter:{name:filterText}">
+      <span class="list-group-item-text">{{item.name}}</span>
+      <span class="pull-right">
+        <span class="item-modify" >
+          <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
+              data-placement='left' tooltip='{{item.condition}}'>
+          </span> 
+        </span> 
+        <span class="item-modify item-recommended">
+          <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
+        </span>
+        <span class="item-modify item-all" >
+          <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+        </span>
+        <span class="item-modify item-component" >
+          <input type="checkbox" ng-model="item.aActive" ng-change="refreshClasses()">
+        </span>
+        <span class="item-modify item-component">
+          <input type="checkbox" ng-model="item.rActive" ng-change="refreshClasses()">
+        </span>
+        <span class="item-modify item-component">
+          <input type="checkbox" ng-model="item.mActive" ng-change="refreshClasses()">
+        </span>
       </span>
     </li>
   </ul>
