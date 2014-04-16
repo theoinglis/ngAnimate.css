@@ -14,7 +14,7 @@
       <span>{{item.name}}</span>
       <span class="pull-right">
         <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
-              data-toggle='tooltip' data-placement='right' title='{{item.condition}}'>
+              data-toggle='tooltip' data-placement='left' tooltip='{{item.condition}}'>
         </span> 
         <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
       </span>
