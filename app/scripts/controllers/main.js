@@ -17,13 +17,27 @@ angular.module('ngAnimationcssApp')
       {name:'squash-right'},
     ];
     $scope.animationType = $scope.animationTypes[$scope.animationTypes.length - 1];
+    $scope.speed = 'nga-default';
+    $scope.stagger = ' nga-stagger';
 
     $scope.refreshClasses = function() {
-      $scope.classes = "";
+      $scope.classes = '';
       for (var i = 0; i < $scope.animationTypes.length; i++) {
         var animationType = $scope.animationTypes[i];
         if (animationType.active) {
-          $scope.classes += "nga-" + animationType.name + " ";
+          $scope.classes += 'nga-' + animationType.name + ' ';
+        }
+        if (animationType.allActive) {
+          $scope.classes += 'nga-' + animationType.name + '-all ';
+        }
+        if (animationType.aActive) {
+          $scope.classes += 'nga-' + animationType.name + '-add ';
+        }
+        if (animationType.rActive) {
+          $scope.classes += 'nga-' + animationType.name + '-remove ';
+        }
+        if (animationType.mActive) {
+          $scope.classes += 'nga-' + animationType.name + '-move ';
         }
       };
     }

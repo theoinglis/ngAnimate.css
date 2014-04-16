@@ -95,11 +95,15 @@ body {
     }
 }
 
+.animation-list-group {
+    min-height: 450px;
+}
+
 .list-group-item {
     max-height: 42px;
 }
 
-.header {
+.list-group-header {
     font-weight: bold;
 }
 
