@@ -1,0 +1,26 @@
+
+@mixin transition-delay($params) {
+    -webkit-transition-delay: $params;
+    -moz-transition-delay: $params;
+    -o-transition-delay: $params;
+    transition-delay: $params;
+}
+@mixin transition-duration($params) {
+    -webkit-transition-duration: $params;
+    -moz-transition-duration: $params;
+    -o-transition-duration: $params;
+    transition-duration: $params;
+}
+
+@mixin transition($params) {
+    -webkit-transition: $params;
+    -moz-transition: $params;
+    -o-transition: $params;
+    transition: $params;
+}
+@mixin transition4($params1, $params2, $params3, $params4) {
+    -webkit-transition: $params1, $params2, $params3, $params4;
+    -moz-transition: $params1, $params2, $params3, $params4;
+    -o-transition: $params1, $params2, $params3, $params4;
+    transition: $params1, $params2, $params3, $params4;
+}

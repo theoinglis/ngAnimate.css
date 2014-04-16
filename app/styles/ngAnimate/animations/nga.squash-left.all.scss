@@ -1,0 +1,15 @@
+@import '_nga.squash-left.base';
+
+.nga-squash-left-add {
+    @include nga-squash-left-add;
+}
+.nga-squash-left-remove {
+    @include nga-squash-left-remove;
+}
+.nga-squash-left-move {
+    @include nga-squash-left-move;
+}
+
+.nga-squash-left-all {
+    @include nga-squash-left-all;
+}

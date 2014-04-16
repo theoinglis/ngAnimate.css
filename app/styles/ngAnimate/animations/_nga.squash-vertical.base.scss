@@ -1,0 +1,56 @@
+@mixin squash-vertical-default {
+    position: relative;
+    overflow: hidden;
+    bottom: 0;
+}
+@mixin squash-vertical-hidden {
+    top: 100%;
+}
+@mixin squash-vertical-visible {
+    top: 0;
+}
+
+@mixin nga-squash-vertical-add {
+    @include squash-vertical-default;
+
+    &.ng-enter {
+        @include squash-vertical-hidden;
+    }
+    &.ng-enter:not(.ng-enter-active) {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    &.ng-enter.ng-enter-active {
+        @include squash-vertical-visible;
+    }
+}
+@mixin nga-squash-vertical-remove {
+    @include squash-vertical-default;
+
+    &.ng-leave{
+        @include squash-vertical-visible;
+    }
+    &.ng-leave.ng-leave-active {
+        @include squash-vertical-hidden;
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@mixin nga-squash-vertical-move {
+    @include squash-vertical-default;
+
+    &.ng-move {
+        @include squash-vertical-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include squash-vertical-visible;
+    }
+}
+
+@mixin nga-squash-vertical-all {
+    @include nga-squash-vertical-add;
+    @include nga-squash-vertical-remove;
+    @include nga-squash-vertical-move;
+}

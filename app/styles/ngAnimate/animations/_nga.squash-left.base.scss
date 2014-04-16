@@ -1,0 +1,57 @@
+@mixin squash-left-default {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    left: 0;
+}
+@mixin squash-left-hidden {
+    width: 0;
+    right: 100%;
+}
+@mixin squash-left-visible {
+    width: 100%;
+    right: 0;
+}
+
+@mixin nga-squash-left-add {
+    @include squash-left-default;
+
+    &.ng-enter {
+        @include squash-left-hidden;
+    }
+    &.ng-enter:not(.ng-enter-active) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    &.ng-enter.ng-enter-active {
+        @include squash-left-visible;
+    }
+}
+@mixin nga-squash-left-remove {
+    @include squash-left-default;
+
+    &.ng-leave{
+        @include squash-left-visible;
+    }
+    &.ng-leave.ng-leave-active {
+        @include squash-left-hidden;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@mixin nga-squash-left-move {
+    @include squash-left-default;
+
+    &.ng-move {
+        @include squash-left-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include squash-left-visible;
+    }
+}
+
+@mixin nga-squash-left-all {
+    @include nga-squash-left-add;
+    @include nga-squash-left-remove;
+    @include nga-squash-left-move;
+}

@@ -1,0 +1,7 @@
+@import '_nga.squash-right.base';
+@import '_nga.fade.base';
+
+.nga-squash-right {
+    @include nga-squash-right-all;
+    @include nga-fade-all;
+}

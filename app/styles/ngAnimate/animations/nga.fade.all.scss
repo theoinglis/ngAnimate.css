@@ -1,0 +1,15 @@
+@import '_nga.fade.base';
+
+.nga-fade-add {
+    @include nga-fade-add;
+}
+.nga-fade-remove {
+    @include nga-fade-remove;
+}
+.nga-fade-move {
+    @include nga-fade-move;
+}
+
+.nga-fade-all {
+    @include nga-fade-all;
+}

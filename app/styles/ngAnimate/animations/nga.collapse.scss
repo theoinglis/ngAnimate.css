@@ -1,0 +1,5 @@
+@import '_nga.collapse.base';
+
+.nga-collapse {
+    @include nga-collapse-all;
+}

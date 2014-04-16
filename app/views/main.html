@@ -10,10 +10,13 @@
   </div>
   <ul class="list-group">
 
-    <li class="list-group-item nga-default {{classes}}" ng-repeat="item in animationTypes | filter:filterText">
+    <li class="list-group-item nga-default {{classes}} nga-stagger" ng-repeat="item in animationTypes | filter:{name:filterText}">
       <span>{{item.name}}</span>
       <span class="pull-right">
-        <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+        <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
+              data-toggle='tooltip' data-placement='right' title='{{item.condition}}'>
+        </span> 
+        <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
       </span>
     </li>
   </ul>
