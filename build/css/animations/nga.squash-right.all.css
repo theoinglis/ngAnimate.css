@@ -1,0 +1,113 @@
+/* line 3, ../../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-add {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 19, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter {
+  width: 0;
+  left: 100%;
+}
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter.ng-enter-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 6, ../../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-remove {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 33, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-remove.ng-leave {
+  width: 100%;
+  left: 0;
+}
+/* line 36, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-remove.ng-leave.ng-leave-active {
+  width: 0;
+  left: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 9, ../../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-move {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 45, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-move.ng-move {
+  width: 0;
+  left: 100%;
+}
+/* line 48, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-move.ng-move.ng-move-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 13, ../../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-all {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 19, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter {
+  width: 0;
+  left: 100%;
+}
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter.ng-enter-active {
+  width: 100%;
+  left: 0;
+}
+/* line 33, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-leave {
+  width: 100%;
+  left: 0;
+}
+/* line 36, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-leave.ng-leave-active {
+  width: 0;
+  left: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-move {
+  width: 0;
+  left: 100%;
+}
+/* line 48, ../../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-move.ng-move-active {
+  width: 100%;
+  left: 0;
+}

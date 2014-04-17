@@ -1,0 +1,5 @@
+@import '_nga.fade.base';
+
+.nga-fade {
+    @include nga-fade-all;
+}

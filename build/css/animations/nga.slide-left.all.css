@@ -1,0 +1,75 @@
+/* line 3, ../../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-add {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-add.ng-enter {
+  right: 100%;
+}
+/* line 18, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-add.ng-enter.ng-enter-active {
+  right: 0;
+}
+
+/* line 6, ../../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-remove {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-remove.ng-leave.ng-leave-active {
+  right: 100%;
+}
+/* line 28, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-remove.ng-leave {
+  right: 0;
+}
+
+/* line 9, ../../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-move {
+  position: relative;
+  overflow: hidden;
+}
+/* line 35, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-move.ng-move {
+  right: 100%;
+}
+/* line 38, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-move.ng-move.ng-move-active {
+  right: 0;
+}
+
+/* line 13, ../../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-all {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-enter {
+  right: 100%;
+}
+/* line 18, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-enter.ng-enter-active {
+  right: 0;
+}
+/* line 25, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-leave.ng-leave-active {
+  right: 100%;
+}
+/* line 28, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-leave {
+  right: 0;
+}
+/* line 35, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-move {
+  right: 100%;
+}
+/* line 38, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-move.ng-move-active {
+  right: 0;
+}

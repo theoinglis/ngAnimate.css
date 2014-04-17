@@ -1,0 +1,9 @@
+@import '_nga.slide-down.base';
+@import '_nga.fade.base';
+@import '_nga.collapse.base';
+
+.nga-slide-down {
+    @include nga-slide-down-all;
+    @include nga-fade-all;
+    @include nga-collapse-all;
+}

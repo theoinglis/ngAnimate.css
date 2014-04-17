@@ -121,7 +121,8 @@ module.exports = function (grunt) {
           ]
         }]
       },
-      server: '.tmp'
+      server: '.tmp',
+      package: 'build'
     },
 
     // Add vendor prefixed styles
@@ -175,6 +176,12 @@ module.exports = function (grunt) {
       server: {
         options: {
           debugInfo: true
+        }
+      },
+      package: {
+        options: {
+          sassDir: '<%= yeoman.app %>/styles/ngAnimate',
+          cssDir: 'build/css'
         }
       }
     },
@@ -272,6 +279,23 @@ module.exports = function (grunt) {
 
     // Copies remaining files to places other tasks can use
     copy: {
+      package: {
+        expand: true,
+        cwd: '<%= yeoman.app %>/styles/ngAnimate',
+        dest: 'build/sass/',
+        src: '{,*/}*.scss'
+      },
+      packageCss: {
+        expand: true,
+        flatten: true,
+        nonull: true,
+        cwd: 'build',
+        dest: 'build',
+        src: [
+          'css/nga.css',
+          'css/nga.all.css',
+        ]
+      },
       dist: {
         files: [{
           expand: true,
@@ -285,7 +309,7 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'bower_components/**/*',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'styles/fonts/*'
           ]
         }, {
           expand: true,
@@ -320,16 +344,23 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
     // to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/styles/main.css': [
-    //         '.tmp/styles/{,*/}*.css',
-    //         '<%= yeoman.app %>/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
+       cssmin: {
+         package: {
+           files: [{
+              expand: true,
+              cwd: 'build/',
+              src: ['nga.all.css'],
+              dest: 'build/',
+              ext: '.all.min.css'
+           },{
+              expand: true,
+              cwd: 'build/',
+              src: ['nga.css'],
+              dest: 'build/',
+              ext: '.min.css'
+           }]
+         }
+       },
     // uglify: {
     //   dist: {
     //     files: {
@@ -379,6 +410,14 @@ module.exports = function (grunt) {
     'autoprefixer',
     'connect:test',
     'karma'
+  ]);
+
+  grunt.registerTask('package', [
+    'clean:package',
+    'copy:package',
+    'compass:package',
+    'copy:packageCss',
+    'cssmin:package',
   ]);
 
   grunt.registerTask('build', [

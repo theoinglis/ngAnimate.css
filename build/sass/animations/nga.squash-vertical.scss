@@ -1,0 +1,7 @@
+@import '_nga.squash-vertical.base';
+@import '_nga.fade.base';
+
+.nga-squash-vertical {
+    @include nga-squash-vertical-all;
+    @include nga-fade-all;
+}

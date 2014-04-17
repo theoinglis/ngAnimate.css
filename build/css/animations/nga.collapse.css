@@ -1,0 +1,24 @@
+/* line 3, ../../../app/styles/ngAnimate/animations/nga.collapse.scss */
+.nga-collapse {
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 9, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

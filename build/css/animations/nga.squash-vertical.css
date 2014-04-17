@@ -1,0 +1,69 @@
+/* line 4, ../../../app/styles/ngAnimate/animations/nga.squash-vertical.scss */
+.nga-squash-vertical {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 16, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter {
+  top: 100%;
+}
+/* line 19, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 24, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter.ng-enter-active {
+  top: 0;
+}
+/* line 31, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-leave {
+  top: 0;
+}
+/* line 34, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-leave.ng-leave-active {
+  top: 100%;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 44, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-move {
+  top: 100%;
+}
+/* line 47, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-move.ng-move-active {
+  top: 0;
+}
+/* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-move.ng-move-active {
+  opacity: 1;
+}

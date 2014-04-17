@@ -1,0 +1,15 @@
+@import '_nga.squash-vertical.base';
+
+.nga-squash-vertical-add {
+    @include nga-squash-vertical-add;
+}
+.nga-squash-vertical-remove {
+    @include nga-squash-vertical-remove;
+}
+.nga-squash-vertical-move {
+    @include nga-squash-vertical-move;
+}
+
+.nga-squash-vertical-all {
+    @include nga-squash-vertical-all;
+}

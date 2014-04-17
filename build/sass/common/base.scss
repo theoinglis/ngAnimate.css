@@ -1,0 +1,43 @@
+@import '_variables';
+@import '_helpers';
+
+.nga-default {
+	@include transition(all $duration-medium $easing-default);
+}
+
+.nga-slow {
+	@include transition(all $duration-slow $easing-default);
+}
+
+.nga-fast {
+	@include transition(all $duration-fast $easing-default);
+}
+
+
+// In progress work to collapse the rows gracefully
+@mixin nga-graceful-collapse($max-height: 42px) {
+	overflow: hidden;
+	max-height: $max-height;
+
+	&.ng-enter {
+		@include transition4(all $duration-medium $easing-default $duration-medium, max-height $duration-medium $easing-default, padding-top $duration-medium $easing-default, padding-bottom $duration-medium $easing-default);
+		max-height: 0;
+	}
+    &.ng-enter:not(.ng-enter-active) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+	&.ng-enter.ng-enter-active {
+		max-height: $max-height;
+	}
+
+	&.ng-leave.ng-leave-active {
+		max-height: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	&.ng-leave {
+		@include transition4(all $duration-medium $easing-default, max-height $duration-medium $easing-default $duration-medium, padding-top $duration-medium $easing-default $duration-medium, padding-bottom $duration-medium $easing-default $duration-medium);
+		max-height: $max-height;
+	}
+}

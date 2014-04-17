@@ -1,0 +1,137 @@
+/* line 5, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-add.ng-enter-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 11, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-leave.ng-leave-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 17, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-move.ng-move-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-enter-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-leave-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-move-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-enter-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-leave-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-move-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-enter-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-leave-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-move-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}

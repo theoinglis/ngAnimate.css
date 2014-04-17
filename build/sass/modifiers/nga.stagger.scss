@@ -1,0 +1,47 @@
+@import '../common/_variables';
+@import '../common/_helpers';
+
+@mixin nga-stagger-add($delay){
+	&.ng-enter-stagger {
+		@include transition-delay($delay);
+		@include transition-duration(0);
+	}
+}
+@mixin nga-stagger-leave($delay){
+	&.ng-leave-stagger {
+		@include transition-delay($delay);
+		@include transition-duration(0);
+	}
+}
+@mixin nga-stagger-move($delay){
+	&.ng-move-stagger {
+		@include transition-delay($delay);
+		@include transition-duration(0);
+	}
+}
+
+.nga-stagger-add {
+	@include nga-stagger-add($duration-medium-stagger);
+}
+.nga-stagger-leave {
+	@include nga-stagger-leave($duration-medium-stagger);
+}
+.nga-stagger-move {
+	@include nga-stagger-move($duration-medium-stagger);
+}
+
+.nga-stagger {
+	@include nga-stagger-add($duration-medium-stagger);
+	@include nga-stagger-leave($duration-medium-stagger);
+	@include nga-stagger-move($duration-medium-stagger);
+}
+.nga-stagger-fast {
+	@include nga-stagger-add($duration-fast-stagger);
+	@include nga-stagger-leave($duration-fast-stagger);
+	@include nga-stagger-move($duration-fast-stagger);
+}
+.nga-stagger-slow {
+	@include nga-stagger-add($duration-slow-stagger);
+	@include nga-stagger-leave($duration-slow-stagger);
+	@include nga-stagger-move($duration-slow-stagger);
+}

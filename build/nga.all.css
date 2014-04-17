@@ -1,0 +1,1445 @@
+/* line 4, ../../app/styles/ngAnimate/common/base.scss */
+.nga-default {
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+/* line 8, ../../app/styles/ngAnimate/common/base.scss */
+.nga-slow {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+/* line 12, ../../app/styles/ngAnimate/common/base.scss */
+.nga-fast {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.collapse.all.scss */
+.nga-collapse-add {
+  overflow: hidden;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-add.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.collapse.all.scss */
+.nga-collapse-remove {
+  overflow: hidden;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-remove.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.collapse.all.scss */
+.nga-collapse-move {
+  overflow: hidden;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-move.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.collapse.all.scss */
+.nga-collapse-all {
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-all.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-all.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse-all.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.collapse.scss */
+.nga-collapse {
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-collapse.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-add.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-add.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-remove.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-remove.ng-leave {
+  opacity: 1;
+}
+
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-move.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-move.ng-move.ng-move-active {
+  opacity: 1;
+}
+
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade-all.ng-move.ng-move-active {
+  opacity: 1;
+}
+
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-fade.ng-move.ng-move-active {
+  opacity: 1;
+}
+
+/* line 4, ../../app/styles/ngAnimate/animations/nga.slide-down.all.scss */
+.nga-slide-down-add {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-add.ng-enter {
+  top: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-add.ng-enter.ng-enter-active {
+  top: 0;
+}
+
+/* line 7, ../../app/styles/ngAnimate/animations/nga.slide-down.all.scss */
+.nga-slide-down-remove {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-remove.ng-leave.ng-leave-active {
+  top: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-remove.ng-leave {
+  top: 0;
+}
+
+/* line 10, ../../app/styles/ngAnimate/animations/nga.slide-down.all.scss */
+.nga-slide-down-move {
+  position: relative;
+  overflow: hidden;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-move.ng-move {
+  top: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-move.ng-move.ng-move-active {
+  top: 0;
+}
+
+/* line 14, ../../app/styles/ngAnimate/animations/nga.slide-down.all.scss */
+.nga-slide-down-all {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-enter {
+  top: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-enter.ng-enter-active {
+  top: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-leave.ng-leave-active {
+  top: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-leave {
+  top: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-move {
+  top: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down-all.ng-move.ng-move-active {
+  top: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/animations/nga.slide-down.scss */
+.nga-slide-down {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-enter {
+  top: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-enter.ng-enter-active {
+  top: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-leave.ng-leave-active {
+  top: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-leave {
+  top: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-move {
+  top: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+.nga-slide-down.ng-move.ng-move-active {
+  top: 0;
+}
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-down.ng-move.ng-move-active {
+  opacity: 1;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-down.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-down.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-down.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-add {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-add.ng-enter {
+  right: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-add.ng-enter.ng-enter-active {
+  right: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-remove {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-remove.ng-leave.ng-leave-active {
+  right: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-remove.ng-leave {
+  right: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-move {
+  position: relative;
+  overflow: hidden;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-move.ng-move {
+  right: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-move.ng-move.ng-move-active {
+  right: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.slide-left.all.scss */
+.nga-slide-left-all {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-enter {
+  right: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-enter.ng-enter-active {
+  right: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-leave.ng-leave-active {
+  right: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-leave {
+  right: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-move {
+  right: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left-all.ng-move.ng-move-active {
+  right: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/animations/nga.slide-left.scss */
+.nga-slide-left {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-enter {
+  right: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-enter.ng-enter-active {
+  right: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-leave.ng-leave-active {
+  right: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-leave {
+  right: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-move {
+  right: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
+.nga-slide-left.ng-move.ng-move-active {
+  right: 0;
+}
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-left.ng-move.ng-move-active {
+  opacity: 1;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-left.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-left.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-left.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+.nga-slide-right-add {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-add.ng-enter {
+  left: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-add.ng-enter.ng-enter-active {
+  left: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+.nga-slide-right-remove {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-remove.ng-leave.ng-leave-active {
+  left: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-remove.ng-leave {
+  left: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+.nga-slide-right-move {
+  position: relative;
+  overflow: hidden;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-move.ng-move {
+  left: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-move.ng-move.ng-move-active {
+  left: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+.nga-slide-right-all {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-enter {
+  left: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-enter.ng-enter-active {
+  left: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-leave.ng-leave-active {
+  left: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-leave {
+  left: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-move {
+  left: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right-all.ng-move.ng-move-active {
+  left: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/animations/nga.slide-right.scss */
+.nga-slide-right {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-enter {
+  left: 100%;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-enter.ng-enter-active {
+  left: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-leave.ng-leave-active {
+  left: 100%;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-leave {
+  left: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-move {
+  left: 100%;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+.nga-slide-right.ng-move.ng-move-active {
+  left: 0;
+}
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-right.ng-move.ng-move-active {
+  opacity: 1;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-right.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-right.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-right.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.slide-up.all.scss */
+.nga-slide-up-add {
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-add.ng-enter {
+  bottom: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-add.ng-enter.ng-enter-active {
+  bottom: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.slide-up.all.scss */
+.nga-slide-up-remove {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-remove.ng-leave.ng-leave-active {
+  bottom: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-remove.ng-leave {
+  bottom: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.slide-up.all.scss */
+.nga-slide-up-move {
+  position: relative;
+  overflow: hidden;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-move.ng-move {
+  bottom: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-move.ng-move.ng-move-active {
+  bottom: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.slide-up.all.scss */
+.nga-slide-up-all {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-enter {
+  bottom: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-enter.ng-enter-active {
+  bottom: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-leave.ng-leave-active {
+  bottom: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-leave {
+  bottom: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-move {
+  bottom: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up-all.ng-move.ng-move-active {
+  bottom: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/animations/nga.slide-up.scss */
+.nga-slide-up {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+  overflow: hidden;
+}
+/* line 15, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-enter {
+  bottom: 50px;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-enter.ng-enter-active {
+  bottom: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-leave.ng-leave-active {
+  bottom: 50px;
+}
+/* line 28, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-leave {
+  bottom: 0;
+}
+/* line 35, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-move {
+  bottom: 50px;
+}
+/* line 38, ../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
+.nga-slide-up.ng-move.ng-move-active {
+  bottom: 0;
+}
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-slide-up.ng-move.ng-move-active {
+  opacity: 1;
+}
+/* line 9, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-up.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 18, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-up.ng-leave.ng-leave-active {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+.nga-slide-up.ng-move {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.squash-left.all.scss */
+.nga-squash-left-add {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-add.ng-enter {
+  width: 0;
+  right: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-add.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-add.ng-enter.ng-enter-active {
+  width: 100%;
+  right: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.squash-left.all.scss */
+.nga-squash-left-remove {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-remove.ng-leave {
+  width: 100%;
+  right: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-remove.ng-leave.ng-leave-active {
+  width: 0;
+  right: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.squash-left.all.scss */
+.nga-squash-left-move {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-move.ng-move {
+  width: 0;
+  right: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-move.ng-move.ng-move-active {
+  width: 100%;
+  right: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.squash-left.all.scss */
+.nga-squash-left-all {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-enter {
+  width: 0;
+  right: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-enter.ng-enter-active {
+  width: 100%;
+  right: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-leave {
+  width: 100%;
+  right: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-leave.ng-leave-active {
+  width: 0;
+  right: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-move {
+  width: 0;
+  right: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left-all.ng-move.ng-move-active {
+  width: 100%;
+  right: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.squash-left.scss */
+.nga-squash-left {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-enter {
+  width: 0;
+  right: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-enter.ng-enter-active {
+  width: 100%;
+  right: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-leave {
+  width: 100%;
+  right: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-leave.ng-leave-active {
+  width: 0;
+  right: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-move {
+  width: 0;
+  right: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
+.nga-squash-left.ng-move.ng-move-active {
+  width: 100%;
+  right: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-add {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter {
+  width: 0;
+  left: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-add.ng-enter.ng-enter-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-remove {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-remove.ng-leave {
+  width: 100%;
+  left: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-remove.ng-leave.ng-leave-active {
+  width: 0;
+  left: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-move {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-move.ng-move {
+  width: 0;
+  left: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-move.ng-move.ng-move-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.squash-right.all.scss */
+.nga-squash-right-all {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter {
+  width: 0;
+  left: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-enter.ng-enter-active {
+  width: 100%;
+  left: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-leave {
+  width: 100%;
+  left: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-leave.ng-leave-active {
+  width: 0;
+  left: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-move {
+  width: 0;
+  left: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right-all.ng-move.ng-move-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.squash-right.scss */
+.nga-squash-right {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  right: 0;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-enter {
+  width: 0;
+  left: 100%;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-enter:not(.ng-enter-active) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 26, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-enter.ng-enter-active {
+  width: 100%;
+  left: 0;
+}
+/* line 33, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-leave {
+  width: 100%;
+  left: 0;
+}
+/* line 36, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-leave.ng-leave-active {
+  width: 0;
+  left: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-move {
+  width: 0;
+  left: 100%;
+}
+/* line 48, ../../app/styles/ngAnimate/animations/_nga.squash-right.base.scss */
+.nga-squash-right.ng-move.ng-move-active {
+  width: 100%;
+  left: 0;
+}
+
+/* line 3, ../../app/styles/ngAnimate/animations/nga.squash-vertical.all.scss */
+.nga-squash-vertical-add {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 16, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-add.ng-enter {
+  top: 100%;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-add.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 24, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-add.ng-enter.ng-enter-active {
+  top: 0;
+}
+
+/* line 6, ../../app/styles/ngAnimate/animations/nga.squash-vertical.all.scss */
+.nga-squash-vertical-remove {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 31, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-remove.ng-leave {
+  top: 0;
+}
+/* line 34, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-remove.ng-leave.ng-leave-active {
+  top: 100%;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 9, ../../app/styles/ngAnimate/animations/nga.squash-vertical.all.scss */
+.nga-squash-vertical-move {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 44, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-move.ng-move {
+  top: 100%;
+}
+/* line 47, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-move.ng-move.ng-move-active {
+  top: 0;
+}
+
+/* line 13, ../../app/styles/ngAnimate/animations/nga.squash-vertical.all.scss */
+.nga-squash-vertical-all {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 16, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-enter {
+  top: 100%;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 24, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-enter.ng-enter-active {
+  top: 0;
+}
+/* line 31, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-leave {
+  top: 0;
+}
+/* line 34, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-leave.ng-leave-active {
+  top: 100%;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 44, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-move {
+  top: 100%;
+}
+/* line 47, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical-all.ng-move.ng-move-active {
+  top: 0;
+}
+
+/* line 4, ../../app/styles/ngAnimate/animations/nga.squash-vertical.scss */
+.nga-squash-vertical {
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+/* line 16, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter {
+  top: 100%;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter:not(.ng-enter-active) {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 24, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-enter.ng-enter-active {
+  top: 0;
+}
+/* line 31, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-leave {
+  top: 0;
+}
+/* line 34, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-leave.ng-leave-active {
+  top: 100%;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 44, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-move {
+  top: 100%;
+}
+/* line 47, ../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+.nga-squash-vertical.ng-move.ng-move-active {
+  top: 0;
+}
+/* line 2, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-enter {
+  opacity: 0;
+}
+/* line 6, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+/* line 11, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+/* line 14, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-leave {
+  opacity: 1;
+}
+/* line 19, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-move {
+  opacity: 0;
+}
+/* line 22, ../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
+.nga-squash-vertical.ng-move.ng-move-active {
+  opacity: 1;
+}
+
+/* line 5, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-add.ng-enter-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 11, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-leave.ng-leave-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 17, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-move.ng-move-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-enter-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-leave-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger.ng-move-stagger {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-enter-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-leave-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-fast.ng-move-stagger {
+  -webkit-transition-delay: 20ms;
+  -moz-transition-delay: 20ms;
+  -o-transition-delay: 20ms;
+  transition-delay: 20ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+
+/* line 5, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-enter-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 11, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-leave-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
+/* line 17, ../../app/styles/ngAnimate/modifiers/nga.stagger.scss */
+.nga-stagger-slow.ng-move-stagger {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
+}
