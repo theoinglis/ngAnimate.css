@@ -1,124 +1,125 @@
 <div>
-  <div class='jumbotron'>
-    <h1>ngAnimate.css</h1>
-    <h3>An extremely customisable and easy to use css library for animating AngularJS</h2>
-  </div>
-  <a data-toggle="collapse" data-target="#howToUse"><h3>How to use ...</h3></a>
-  <h4 id="howToUse" class="collapse">
-    Firstly, include the AngularJS ngAnimate module in your project:
-    <ul>
-      <li>Add the ngAnimate.js script</li>
-      <li>Reference a dependency to the 'ngAnimate' module in your app</li>
-    </ul>
-    Then finally include the <a href="#">simple css file</a> or the <a href="#">customisable css file</a>
-    <br />
-    <br />
-    Play around with the filter below to see the what animations are possible
-    <br />
-    To quickly see some smooth animations select a recommended (R) animation.
-    <br />
-    If you want to design your own then build up an animation by selecting a combination of:
-    <ul>
-      <li>All (A) - sets the animation for add, remove and move</li>
-      <li>Add (A) - sets the animation for when a row is added</li>
-      <li>Remove (R) - sets the animation for when a row is removed</li>
-      <li>Move (M) - sets the animation for when a row is moved</li>
-    </ul>
-    When you are happy with the animation just add the classes in the 'Classes applied' section to the element you are animating
-  </h4>
-  <a data-toggle="collapse" data-target="#demo"><h3>Demo</h3></a>
-  <div id="demo" class="collapse in">
-    <a data-toggle="collapse" data-target="#classesApplied"><h4>Classes applied</h4></a>
-    <h4 id="classesApplied" class="collapse in">
-      {{speed}}{{stagger}} {{classes}}
-    </h4>
-    <a data-toggle="collapse" data-target="#modifiers"><h4>Modifiers</h4></a>
-    <h4 id="modifiers" class="collapse in">
-      <div class="btn-group" data-toggle="buttons">
-        <label class="btn">Speed:</label>
-        <label class="btn btn-primary" ng-click="speed='nga-default'">
-          <input type="radio" name="speed" id="default" 
-                 ng-model="speed" value="nga-default"> default
-        </label>
-        <label class="btn btn-primary" ng-click="speed='nga-fast'">
-          <input type="radio" name="speed" id="fast"
-                 ng-model="speed" value="nga-fast"> fast
-        </label>
-        <label class="btn btn-primary" ng-click="speed='nga-slow'">
-          <input type="radio" name="speed" id="slow"
-                 ng-model="speed" value="nga-slow"> slow
-        </label>
-      </div>
-      <div class="btn-group" data-toggle="buttons">
-        <label class="btn">Stagger:</label>
-        <label class="btn btn-primary" ng-click="stagger=''">
-          <input type="radio" name="stagger" id="none"> none
-        </label>
-        <label class="btn btn-primary" ng-click="stagger=' nga-stagger'">
-          <input type="radio" name="stagger" id="default"> default
-        </label>
-        <label class="btn btn-primary" ng-click="stagger=' nga-stagger-fast'">
-          <input type="radio" name="stagger" id="fast"> fast
-        </label>
-        <label class="btn btn-primary" ng-click="stagger=' nga-stagger-slow'">
-          <input type="radio" name="stagger" id="slow"> slow
-        </label>
-      </div>
-    </h4>
-    <div class="form-group has-feedback has-no-label">
+  <h4 class="title">Try it now. Filter the table below</h4>
+  <div class="row">
+    <div class="col-sm-7">
+
+
+      <!-- Main Table -->
+      <div class="form-group has-feedback has-no-label">
           <input type="text" class="form-control" ng-model="filterText" placeholder="Filter the animation types ...">
           <span class="glyphicon glyphicon-filter form-control-feedback"></span>
-    </div>
-    <ul class="list-group animation-list-group">
-
-      <li class="list-group-item list-group-header">
-        <span>Animation</span>
-        <span class="pull-right">
-          <span class="item-modify" tooltip="Condition">
-            C
-          </span> 
-          <span class="item-modify item-recommended" tooltip="Recommended">
-            R
-          </span>
-          <span class="item-modify item-all" tooltip="All">
-            A
-          </span>
-          <span class="item-modify item-component" tooltip="Add">
-            A
-          </span>
-          <span class="item-modify item-component" tooltip="Remove">
-            R
-          </span>
-          <span class="item-modify item-component" tooltip="Move">
-            M
-          </span>
-        </span>
-      </li>
-      <li class="list-group-item {{speed}}{{stagger}} {{classes}}" ng-repeat="item in animationTypes | filter:{name:filterText}">
-        <span class="list-group-item-text">{{item.name}}</span>
-        <span class="pull-right">
-          <span class="item-modify" >
-            <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
-                data-placement='left' data-container="body" tooltip='{{item.condition}}'>
+      </div>
+      <ul class="list-group animation-list-group">
+        <li class="list-group-item list-group-header">
+          <span>Animation</span>
+          <span class="pull-right">
+            <span class="item-modify" tooltip="Condition">
+              C
             </span> 
-          </span> 
-          <span class="item-modify item-recommended">
-            <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
+            <span class="item-modify item-recommended" tooltip="Recommended - This animation is quick to set up and will look good by itself">
+              R
+            </span>
+            <span class="item-modify item-all" tooltip="All - The animation will apply when the element is being added, removed and moved; and might be improved by combining with other animations">
+              A
+            </span>
+            <span class="item-modify item-component" tooltip="Add - The animation will apply when the element is being added and might be improved by combining with other animations">
+              A
+            </span>
+            <span class="item-modify item-component" tooltip="Remove - The animation will apply when the element is being removed and might be improved by combining with other animations">
+              R
+            </span>
+            <span class="item-modify item-component" tooltip="Move - The animation will apply when the element is being moved and might be improved by combining with other animations">
+              M
+            </span>
           </span>
-          <span class="item-modify item-all" >
-            <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+        </li>
+        <li class="list-group-item {{speed}}{{stagger}} {{classes}}" ng-repeat="item in animationTypes | filter:{name:filterText}">
+          <span class="list-group-item-text">{{item.name}}</span>
+          <span class="pull-right">
+            <span class="item-modify" >
+              <span class='glyphicon glyphicon-warning-sign' ng-show='item.condition'
+                  data-placement='left' data-container="body" tooltip='{{item.condition}}'>
+              </span> 
+            </span> 
+            <span class="item-modify item-recommended">
+              <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
+            </span>
+            <span class="item-modify item-all" >
+              <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+            </span>
+            <span class="item-modify item-component" >
+              <input type="checkbox" ng-model="item.aActive" ng-change="refreshClasses()">
+            </span>
+            <span class="item-modify item-component">
+              <input type="checkbox" ng-model="item.rActive" ng-change="refreshClasses()">
+            </span>
+            <span class="item-modify item-component">
+              <input type="checkbox" ng-model="item.mActive" ng-change="refreshClasses()">
+            </span>
           </span>
-          <span class="item-modify item-component" >
-            <input type="checkbox" ng-model="item.aActive" ng-change="refreshClasses()">
-          </span>
-          <span class="item-modify item-component">
-            <input type="checkbox" ng-model="item.rActive" ng-change="refreshClasses()">
-          </span>
-          <span class="item-modify item-component">
-            <input type="checkbox" ng-model="item.mActive" ng-change="refreshClasses()">
-          </span>
-        </span>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-5">
+
+      <!-- Modifiers section -->
+      <div class="section pull-left well well-sm">
+        <a data-toggle="collapse" data-target="#modifiers"><h4>Modifiers</h4></a>
+        <div id="modifiers" class="collapse in">
+
+          <div class="form-group">
+            <label>Speed</label>
+            <br/>
+            <div class="btn-group" data-toggle="buttons">
+
+              <label class="btn btn-primary" ng-click="speed='nga-default'">
+                <input type="radio" name="speed" id="default"
+                       ng-model="speed" value="nga-default"> default
+              </label><label class="btn btn-primary" ng-click="speed='nga-fast'">
+                <input type="radio" name="speed" id="fast"
+                       ng-model="speed" value="nga-fast"> fast
+              </label>
+              <label class="btn btn-primary" ng-click="speed='nga-slow'">
+                <input type="radio" name="speed" id="slow"
+                       ng-model="speed" value="nga-slow"> slow
+              </label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label>Stagger</label>
+            <br/>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-primary" ng-click="stagger=''">
+                <input type="radio" name="stagger" id="none"> none
+              </label>
+              <label class="btn btn-primary" ng-click="stagger=' nga-stagger'">
+                <input type="radio" name="stagger" id="default"> default
+              </label>
+              <label class="btn btn-primary" ng-click="stagger=' nga-stagger-fast'">
+                <input type="radio" name="stagger" id="fast"> fast
+              </label>
+              <label class="btn btn-primary" ng-click="stagger=' nga-stagger-slow'">
+                <input type="radio" name="stagger" id="slow"> slow
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Classes -->
+      <div class="section pull-left well well-sm">
+        <a data-toggle="collapse" data-target="#classesApplied"><h4>Classes applied</h4></a>
+        <h4 id="classesApplied" class="collapse in">
+          {{speed}}{{stagger}} {{classes}}
+        </h4>
+      </div>
+    </div>
+  
   </div>
+
+
+
+
+
 </div>

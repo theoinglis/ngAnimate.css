@@ -8,9 +8,9 @@ angular.module('ngAnimationcssApp')
     $scope.animationTypes = [
       {name:'fade'},
       {name:'collapse', condition: heightCondition},
-      {name:'slide-up', condition: heightCondition, active: true},
+      {name:'slide-up', condition: heightCondition},
       {name:'slide-down', condition: heightCondition},
-      {name:'slide-left'},
+      {name:'slide-left', active: true},
       {name:'slide-right'},
       {name:'squash-vertical', condition: heightCondition},
       {name:'squash-left'},

@@ -7,7 +7,6 @@
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -43,15 +42,48 @@ body {
     margin: 30px 0;
 }
 
+.well {
+    width: 100%;
+    border-color: #F1B534;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    background-color: #1781B3;
+    color: white;
 }
 
 .jumbotron .btn {
+    background-color: transparent;
+    color: white;
     font-size: 21px;
-    padding: 14px 24px;
+    padding: 5px 24px;
+    margin: 0 15px;
+}
+
+.row-spaced {
+    padding-top: 10px;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+.col-btn {
+    max-width: 100%;
+    white-space: normal;
+}
+
+.col-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 /* Supporting marketing content */
@@ -107,6 +139,24 @@ body {
     font-weight: bold;
 }
 
+.list-blank {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item-header {
+    color: orange;
+    &:not(.first) {
+        padding-top: 20px;
+    }
+}
+
+.list-spaced {
+    li {
+        padding: 20px 0;
+    }
+}
+
 .item-modify {
     display: inline-block;
     height: 100%;
@@ -126,4 +176,12 @@ body {
 .item-component {
     color: #2BCBE0;
     border-color: #2BCBE0;
+}
+
+.htu-content {
+    font-size: 16px;
+}
+
+.htu-or {
+    padding: 25px;
 }

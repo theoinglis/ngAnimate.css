@@ -16,6 +16,9 @@ angular.module('ngAnimationcssApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/use', {
+        templateUrl: 'views/use.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
