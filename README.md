@@ -1,4 +1,4 @@
-[ngAnimate.css](An extremely customisable and easy to use css library for animating AngularJS)
+[ngAnimate.css](http://theoinglis.github.io/ngAnimate.css)
 =============
 
 #### An extremely customisable and easy to use css library for animating AngularJS
