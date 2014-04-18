@@ -1,24 +1,28 @@
 'use strict';
 
 angular.module('ngAnimationcssApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
 
     var heightCondition = 'padding-bottom, padding-top and max-height must be set to use';
 
     $scope.transitionsEnabled = Modernizr.csstransitions;
 
-    $scope.animationTypes = [
-      {name:'fade'},
-      {name:'collapse', condition: heightCondition},
-      {name:'slide-up', condition: heightCondition},
-      {name:'slide-down', condition: heightCondition},
-      {name:'slide-left', active: true},
-      {name:'slide-right'},
-      {name:'squash-vertical', condition: heightCondition},
-      {name:'squash-left'},
-      {name:'squash-right'},
-    ];
-    $scope.animationType = $scope.animationTypes[$scope.animationTypes.length - 1];
+
+    $timeout(function() {
+      $scope.animationTypes = [
+        {name:'fade'},
+        {name:'collapse', condition: heightCondition},
+        {name:'slide-up', condition: heightCondition},
+        {name:'slide-down', condition: heightCondition},
+        {name:'slide-left', active: true},
+        {name:'slide-right'},
+        {name:'squash-vertical', condition: heightCondition},
+        {name:'squash-left'},
+        {name:'squash-right'},
+      ];
+      $scope.refreshClasses();
+    }, 500);
+    
     $scope.speed = 'nga-default';
     $scope.stagger = ' nga-stagger';
 
@@ -43,5 +47,4 @@ angular.module('ngAnimationcssApp')
         }
       };
     }
-    $scope.refreshClasses();
-  });
+  }]);
