@@ -3,6 +3,7 @@
 
 #### An extremely customisable and easy to use css library for animating AngularJS
 
+
 ### How to Use
 **1** Add the AngularJS ngAnimate module to your project
 
