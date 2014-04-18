@@ -406,7 +406,6 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
-    'autoprefixer',
     'connect:test',
     'karma'
   ]);
@@ -424,7 +423,6 @@ module.exports = function (grunt) {
     'bower-install',
     'useminPrepare',
     'concurrent:dist',
-    'autoprefixer',
     'concat',
     'ngmin',
     'copy:dist',
