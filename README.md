@@ -2,7 +2,7 @@
 =============
 
 #### An extremely customisable and easy to use css library for animating AngularJS
-
+### [Try the Demo](http://theoinglis.github.io/ngAnimate.css)
 
 ### How to Use
 **1** Add the AngularJS ngAnimate module to your project
@@ -17,4 +17,4 @@
 
 **3** Add the classes in the 'Classes Applied' section to the element you want to animate
 
-**Done** And that is it ... Enjoy!
+**Done**
