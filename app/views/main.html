@@ -1,5 +1,12 @@
 <div>
-  <h4 class="title">Try it now. Filter the table below</h4>
+  <h4 class="title" ng-show="transitionsEnabled">Try it now. Filter the table below</h4>
+  <h4 class="title" ng-show="!transitionsEnabled">
+    Unfortunately your browser doesn't support css transitions,<br />
+    so the animations won't work<br />
+    <br />
+    May I suggest updating your browser?<br /> 
+    The internet will look so much better when you do!
+  </h4>
   <div class="row">
     <div class="col-sm-7">
 

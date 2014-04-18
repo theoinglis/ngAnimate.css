@@ -5,6 +5,8 @@ angular.module('ngAnimationcssApp')
 
     var heightCondition = 'padding-bottom, padding-top and max-height must be set to use';
 
+    $scope.transitionsEnabled = Modernizr.csstransitions;
+
     $scope.animationTypes = [
       {name:'fade'},
       {name:'collapse', condition: heightCondition},

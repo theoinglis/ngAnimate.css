@@ -393,7 +393,6 @@ module.exports = function (grunt) {
       'clean:server',
       'bower-install',
       'concurrent:server',
-      'autoprefixer',
       'connect:livereload',
       'watch'
     ]);
