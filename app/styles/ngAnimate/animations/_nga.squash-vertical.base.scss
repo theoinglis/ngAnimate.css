@@ -11,8 +11,6 @@
 }
 
 @mixin nga-squash-vertical-add {
-    @include squash-vertical-default;
-
     &.ng-enter {
         @include squash-vertical-hidden;
     }
@@ -26,8 +24,6 @@
     }
 }
 @mixin nga-squash-vertical-remove {
-    @include squash-vertical-default;
-
     &.ng-leave{
         @include squash-vertical-visible;
     }
@@ -39,8 +35,6 @@
     }
 }
 @mixin nga-squash-vertical-move {
-    @include squash-vertical-default;
-
     &.ng-move {
         @include squash-vertical-hidden;
     }
@@ -50,6 +44,8 @@
 }
 
 @mixin nga-squash-vertical-all {
+    @include squash-vertical-default;
+
     @include nga-squash-vertical-add;
     @include nga-squash-vertical-remove;
     @include nga-squash-vertical-move;

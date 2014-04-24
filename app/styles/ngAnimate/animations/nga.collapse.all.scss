@@ -1,12 +1,15 @@
 @import '_nga.collapse.base';
 
 .nga-collapse-add {
+    @include collapse-default;
     @include nga-collapse-add;
 }
 .nga-collapse-remove {
+    @include collapse-default;
     @include nga-collapse-remove;
 }
 .nga-collapse-move {
+    @include collapse-default;
     @include nga-collapse-move;
 }
 

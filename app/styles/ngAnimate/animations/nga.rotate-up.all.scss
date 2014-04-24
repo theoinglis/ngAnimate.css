@@ -1,0 +1,19 @@
+@import '_nga.rotate-up.base';
+
+
+.nga-rotate-up-add {
+    @include rotate-up-default;
+    @include nga-rotate-up-add;
+}
+.nga-rotate-up-remove {
+    @include rotate-up-default;
+    @include nga-rotate-up-remove;
+}
+.nga-rotate-up-move {
+    @include rotate-up-default;
+    @include nga-rotate-up-move;
+}
+
+.nga-rotate-up-all {
+    @include nga-rotate-up-all;
+}

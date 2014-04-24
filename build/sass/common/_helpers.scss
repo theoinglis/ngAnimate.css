@@ -24,3 +24,10 @@
     -o-transition: $params1, $params2, $params3, $params4;
     transition: $params1, $params2, $params3, $params4;
 }
+
+@mixin transform($params) {
+    -webkit-transform: $params;
+    -moz-transform: $params;
+    -o-transform: $params;
+    transform: $params;
+}

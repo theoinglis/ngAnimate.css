@@ -10,8 +10,6 @@
 }
 
 @mixin nga-slide-right-add {
-    @include slide-right-default;
-
     &.ng-enter {
         @include slide-right-hidden;
     }
@@ -20,8 +18,6 @@
     }
 }
 @mixin nga-slide-right-remove {
-    @include slide-right-default;
-
     &.ng-leave.ng-leave-active {
         @include slide-right-hidden;
     }
@@ -30,8 +26,6 @@
     }
 }
 @mixin nga-slide-right-move {
-    @include slide-right-default;
-
     &.ng-move {
         @include slide-right-hidden;
     }
@@ -41,6 +35,8 @@
 }
 
 @mixin nga-slide-right-all {
+    @include slide-right-default;
+
     @include nga-slide-right-add;
     @include nga-slide-right-remove;
     @include nga-slide-right-move;

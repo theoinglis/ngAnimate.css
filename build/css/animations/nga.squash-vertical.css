@@ -3,43 +3,37 @@
   position: relative;
   overflow: hidden;
   bottom: 0;
-  position: relative;
-  overflow: hidden;
-  bottom: 0;
-  position: relative;
-  overflow: hidden;
-  bottom: 0;
 }
-/* line 16, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 14, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-enter {
   top: 100%;
 }
-/* line 19, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 17, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-enter:not(.ng-enter-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 24, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-enter.ng-enter-active {
   top: 0;
 }
-/* line 31, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 27, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-leave {
   top: 0;
 }
-/* line 34, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 30, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-leave.ng-leave-active {
   top: 100%;
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 44, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 38, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-move {
   top: 100%;
 }
-/* line 47, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
+/* line 41, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
 .nga-squash-vertical.ng-move.ng-move-active {
   top: 0;
 }

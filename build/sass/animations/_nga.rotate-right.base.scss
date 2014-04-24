@@ -1,0 +1,44 @@
+@import '../common/_helpers';
+
+@mixin rotate-right-default {
+    @include transform(rotateY(0deg));
+}
+@mixin rotate-right-hidden {
+    @include transform(rotateY(-90deg));
+}
+@mixin rotate-right-visible {
+    @include transform(rotateY(0deg));
+}
+
+@mixin nga-rotate-right-add {
+    &.ng-enter {
+        @include rotate-right-hidden;
+    }
+    &.ng-enter.ng-enter-active {
+        @include rotate-right-visible;
+    }
+}
+@mixin nga-rotate-right-remove {
+    &.ng-leave.ng-leave-active {
+        @include rotate-right-hidden;
+    }
+    &.ng-leave{
+        @include rotate-right-visible;
+    }
+}
+@mixin nga-rotate-right-move {
+    &.ng-move {
+        @include rotate-right-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include rotate-right-visible;
+    }
+}
+
+@mixin nga-rotate-right-all {
+    @include rotate-right-default;
+    
+    @include nga-rotate-right-add;
+    @include nga-rotate-right-remove;
+    @include nga-rotate-right-move;
+}

@@ -1,12 +1,15 @@
 @import '_nga.slide-right.base';
 
 .nga-slide-right-add {
+    @include slide-right-default;
     @include nga-slide-right-add;
 }
 .nga-slide-right-remove {
+    @include slide-right-default;
     @include nga-slide-right-remove;
 }
 .nga-slide-right-move {
+    @include slide-right-default;
     @include nga-slide-right-move;
 }
 

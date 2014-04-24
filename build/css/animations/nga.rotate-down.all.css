@@ -1,0 +1,115 @@
+/* line 4, ../../../app/styles/ngAnimate/animations/nga.rotate-down.all.scss */
+.nga-rotate-down-add {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 14, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-add.ng-enter {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 17, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-add.ng-enter.ng-enter-active {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+/* line 8, ../../../app/styles/ngAnimate/animations/nga.rotate-down.all.scss */
+.nga-rotate-down-remove {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-remove.ng-leave.ng-leave-active {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 25, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-remove.ng-leave {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+/* line 12, ../../../app/styles/ngAnimate/animations/nga.rotate-down.all.scss */
+.nga-rotate-down-move {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 30, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-move.ng-move {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 33, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-move.ng-move.ng-move-active {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+/* line 17, ../../../app/styles/ngAnimate/animations/nga.rotate-down.all.scss */
+.nga-rotate-down-all {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 14, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-enter {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 17, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-enter.ng-enter-active {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 22, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-leave.ng-leave-active {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 25, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-leave {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+/* line 30, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-move {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 33, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
+.nga-rotate-down-all.ng-move.ng-move-active {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}

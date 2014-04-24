@@ -4,9 +4,9 @@ angular.module('ngAnimationcssApp')
   .controller('MainCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
 
     var heightCondition = 'padding-bottom, padding-top and max-height must be set to use';
+    var perspectiveCondition = 'perspective must be set on the parent container for a 3D effect';
 
     $scope.transitionsEnabled = Modernizr.csstransitions;
-
 
     $timeout(function() {
       $scope.animationTypes = [
@@ -19,9 +19,13 @@ angular.module('ngAnimationcssApp')
         {name:'squash-vertical', condition: heightCondition},
         {name:'squash-left'},
         {name:'squash-right'},
+        {name:'rotate-left', condition: perspectiveCondition},
+        {name:'rotate-right', condition: perspectiveCondition},
+        {name:'rotate-up', condition: perspectiveCondition},
+        {name:'rotate-down', condition: perspectiveCondition},
       ];
       $scope.refreshClasses();
-    }, 500);
+    }, 100);
     
     $scope.speed = 'nga-default';
     $scope.stagger = ' nga-stagger';

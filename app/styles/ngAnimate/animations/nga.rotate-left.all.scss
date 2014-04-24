@@ -1,0 +1,19 @@
+@import '_nga.rotate-left.base';
+
+
+.nga-rotate-left-add {
+    @include rotate-left-default;
+    @include nga-rotate-left-add;
+}
+.nga-rotate-left-remove {
+    @include rotate-left-default;
+    @include nga-rotate-left-remove;
+}
+.nga-rotate-left-move {
+    @include rotate-left-default;
+    @include nga-rotate-left-move;
+}
+
+.nga-rotate-left-all {
+    @include nga-rotate-left-all;
+}

@@ -1,0 +1,19 @@
+@import '_nga.rotate-right.base';
+
+
+.nga-rotate-right-add {
+    @include rotate-right-default;
+    @include nga-rotate-right-add;
+}
+.nga-rotate-right-remove {
+    @include rotate-right-default;
+    @include nga-rotate-right-remove;
+}
+.nga-rotate-right-move {
+    @include rotate-right-default;
+    @include nga-rotate-right-move;
+}
+
+.nga-rotate-right-all {
+    @include nga-rotate-right-all;
+}

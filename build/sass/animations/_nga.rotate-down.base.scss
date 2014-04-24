@@ -1,0 +1,44 @@
+@import '../common/_helpers';
+
+@mixin rotate-down-default {
+    @include transform(rotateX(0deg));
+}
+@mixin rotate-down-hidden {
+    @include transform(rotateX(-90deg));
+}
+@mixin rotate-down-visible {
+    @include transform(rotateX(0deg));
+}
+
+@mixin nga-rotate-down-add {
+    &.ng-enter {
+        @include rotate-down-hidden;
+    }
+    &.ng-enter.ng-enter-active {
+        @include rotate-down-visible;
+    }
+}
+@mixin nga-rotate-down-remove {
+    &.ng-leave.ng-leave-active {
+        @include rotate-down-hidden;
+    }
+    &.ng-leave{
+        @include rotate-down-visible;
+    }
+}
+@mixin nga-rotate-down-move {
+    &.ng-move {
+        @include rotate-down-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include rotate-down-visible;
+    }
+}
+
+@mixin nga-rotate-down-all {
+    @include rotate-down-default;
+    
+    @include nga-rotate-down-add;
+    @include nga-rotate-down-remove;
+    @include nga-rotate-down-move;
+}

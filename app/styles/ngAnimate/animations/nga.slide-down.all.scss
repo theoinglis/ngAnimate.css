@@ -2,12 +2,15 @@
 
 
 .nga-slide-down-add {
+    @include slide-down-default;
     @include nga-slide-down-add;
 }
 .nga-slide-down-remove {
+    @include slide-down-default;
     @include nga-slide-down-remove;
 }
 .nga-slide-down-move {
+    @include slide-down-default;
     @include nga-slide-down-move;
 }
 

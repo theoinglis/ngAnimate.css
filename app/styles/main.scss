@@ -1,3 +1,11 @@
+
+@mixin perspective($params) {
+    -webkit-perspective: $params;
+    -moz-perspective: $params;
+    -o-perspective: $params;
+    perspective: $params;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -128,7 +136,8 @@ body {
 }
 
 .animation-list-group {
-    min-height: 450px;
+    @include perspective(1000px);
+    min-height: 550px;
 }
 
 .list-group-item {

@@ -14,8 +14,6 @@
 }
 
 @mixin nga-squash-right-add {
-    @include squash-right-default;
-
     &.ng-enter {
         @include squash-right-hidden;
     }
@@ -28,8 +26,6 @@
     }
 }
 @mixin nga-squash-right-remove {
-    @include squash-right-default;
-
     &.ng-leave{
         @include squash-right-visible;
     }
@@ -40,8 +36,6 @@
     }
 }
 @mixin nga-squash-right-move {
-    @include squash-right-default;
-
     &.ng-move {
         @include squash-right-hidden;
     }
@@ -51,6 +45,8 @@
 }
 
 @mixin nga-squash-right-all {
+    @include squash-right-default;
+
     @include nga-squash-right-add;
     @include nga-squash-right-remove;
     @include nga-squash-right-move;

@@ -1,12 +1,15 @@
 @import '_nga.squash-left.base';
 
 .nga-squash-left-add {
+    @include squash-left-default;
     @include nga-squash-left-add;
 }
 .nga-squash-left-remove {
+    @include squash-left-default;
     @include nga-squash-left-remove;
 }
 .nga-squash-left-move {
+    @include squash-left-default;
     @include nga-squash-left-move;
 }
 

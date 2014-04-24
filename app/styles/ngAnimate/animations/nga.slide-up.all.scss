@@ -1,12 +1,15 @@
 @import '_nga.slide-up.base';
 
 .nga-slide-up-add {
+    @include slide-up-default;
     @include nga-slide-up-add;
 }
 .nga-slide-up-remove {
+    @include slide-up-default;
     @include nga-slide-up-remove;
 }
 .nga-slide-up-move {
+    @include slide-up-default;
     @include nga-slide-up-move;
 }
 

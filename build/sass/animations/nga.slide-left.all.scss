@@ -1,12 +1,15 @@
 @import '_nga.slide-left.base';
 
 .nga-slide-left-add {
+    @include slide-left-default;
     @include nga-slide-left-add;
 }
 .nga-slide-left-remove {
+    @include slide-left-default;
     @include nga-slide-left-remove;
 }
 .nga-slide-left-move {
+    @include slide-left-default;
     @include nga-slide-left-move;
 }
 

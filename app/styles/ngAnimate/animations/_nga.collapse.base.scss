@@ -4,8 +4,6 @@
 
 
 @mixin nga-collapse-add {
-    @include collapse-default;
-
     &.ng-enter:not(.ng-enter-active) {
         max-height: 0;
         padding-top: 0;
@@ -13,8 +11,6 @@
     }
 }
 @mixin nga-collapse-remove {
-    @include collapse-default;
-
     &.ng-leave.ng-leave-active {
         max-height: 0;
         padding-top: 0;
@@ -22,8 +18,6 @@
     }
 }
 @mixin nga-collapse-move {
-    @include collapse-default;
-
     &.ng-move {
         max-height: 0;
         padding-top: 0;
@@ -32,6 +26,8 @@
 }
 
 @mixin nga-collapse-all {
+    @include collapse-default;
+    
     @include nga-collapse-add;
     @include nga-collapse-remove;
     @include nga-collapse-move;

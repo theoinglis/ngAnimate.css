@@ -1,0 +1,7 @@
+@import '_nga.rotate-down.base';
+@import '_nga.fade.base';
+
+.nga-rotate-down {
+    @include nga-rotate-down-all;
+    @include nga-fade-all;
+}

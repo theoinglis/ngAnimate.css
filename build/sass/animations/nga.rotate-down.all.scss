@@ -1,0 +1,19 @@
+@import '_nga.rotate-down.base';
+
+
+.nga-rotate-down-add {
+    @include rotate-down-default;
+    @include nga-rotate-down-add;
+}
+.nga-rotate-down-remove {
+    @include rotate-down-default;
+    @include nga-rotate-down-remove;
+}
+.nga-rotate-down-move {
+    @include rotate-down-default;
+    @include nga-rotate-down-move;
+}
+
+.nga-rotate-down-all {
+    @include nga-rotate-down-all;
+}

@@ -3,73 +3,69 @@
   position: relative;
   overflow: hidden;
 }
-/* line 15, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-add.ng-enter {
   left: 100%;
 }
-/* line 18, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-add.ng-enter.ng-enter-active {
   left: 0;
 }
 
-/* line 6, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+/* line 7, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
 .nga-slide-right-remove {
   position: relative;
   overflow: hidden;
 }
-/* line 25, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-remove.ng-leave.ng-leave-active {
   left: 100%;
 }
-/* line 28, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-remove.ng-leave {
   left: 0;
 }
 
-/* line 9, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+/* line 11, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
 .nga-slide-right-move {
   position: relative;
   overflow: hidden;
 }
-/* line 35, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 29, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-move.ng-move {
   left: 100%;
 }
-/* line 38, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 32, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-move.ng-move.ng-move-active {
   left: 0;
 }
 
-/* line 13, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
+/* line 16, ../../../app/styles/ngAnimate/animations/nga.slide-right.all.scss */
 .nga-slide-right-all {
   position: relative;
   overflow: hidden;
-  position: relative;
-  overflow: hidden;
-  position: relative;
-  overflow: hidden;
 }
-/* line 15, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-enter {
   left: 100%;
 }
-/* line 18, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-enter.ng-enter-active {
   left: 0;
 }
-/* line 25, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-leave.ng-leave-active {
   left: 100%;
 }
-/* line 28, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-leave {
   left: 0;
 }
-/* line 35, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 29, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-move {
   left: 100%;
 }
-/* line 38, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
+/* line 32, ../../../app/styles/ngAnimate/animations/_nga.slide-right.base.scss */
 .nga-slide-right-all.ng-move.ng-move-active {
   left: 0;
 }

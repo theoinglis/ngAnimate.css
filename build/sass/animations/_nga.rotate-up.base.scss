@@ -1,0 +1,44 @@
+@import '../common/_helpers';
+
+@mixin rotate-up-default {
+    @include transform(rotateX(0deg));
+}
+@mixin rotate-up-hidden {
+    @include transform(rotateX(90deg));
+}
+@mixin rotate-up-visible {
+    @include transform(rotateX(0deg));
+}
+
+@mixin nga-rotate-up-add {
+    &.ng-enter {
+        @include rotate-up-hidden;
+    }
+    &.ng-enter.ng-enter-active {
+        @include rotate-up-visible;
+    }
+}
+@mixin nga-rotate-up-remove {
+    &.ng-leave.ng-leave-active {
+        @include rotate-up-hidden;
+    }
+    &.ng-leave{
+        @include rotate-up-visible;
+    }
+}
+@mixin nga-rotate-up-move {
+    &.ng-move {
+        @include rotate-up-hidden;
+    }
+    &.ng-move.ng-move-active {
+        @include rotate-up-visible;
+    }
+}
+
+@mixin nga-rotate-up-all {
+    @include rotate-up-default;
+    
+    @include nga-rotate-up-add;
+    @include nga-rotate-up-remove;
+    @include nga-rotate-up-move;
+}

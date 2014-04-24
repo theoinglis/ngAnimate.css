@@ -1,0 +1,7 @@
+@import '_nga.rotate-left.base';
+@import '_nga.fade.base';
+
+.nga-rotate-left {
+    @include nga-rotate-left-all;
+    @include nga-fade-all;
+}

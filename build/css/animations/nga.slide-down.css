@@ -2,35 +2,29 @@
 .nga-slide-down {
   position: relative;
   overflow: hidden;
-  position: relative;
-  overflow: hidden;
-  position: relative;
-  overflow: hidden;
-  overflow: hidden;
-  overflow: hidden;
   overflow: hidden;
 }
-/* line 15, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-enter {
   top: 50px;
 }
-/* line 18, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-enter.ng-enter-active {
   top: 0;
 }
-/* line 25, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-leave.ng-leave-active {
   top: 50px;
 }
-/* line 28, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-leave {
   top: 0;
 }
-/* line 35, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 29, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-move {
   top: 50px;
 }
-/* line 38, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
+/* line 32, ../../../app/styles/ngAnimate/animations/_nga.slide-down.base.scss */
 .nga-slide-down.ng-move.ng-move-active {
   top: 0;
 }
@@ -58,19 +52,19 @@
 .nga-slide-down.ng-move.ng-move-active {
   opacity: 1;
 }
-/* line 9, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+/* line 7, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
 .nga-slide-down.ng-enter:not(.ng-enter-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 18, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+/* line 14, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
 .nga-slide-down.ng-leave.ng-leave-active {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 27, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
+/* line 21, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
 .nga-slide-down.ng-move {
   max-height: 0;
   padding-top: 0;
