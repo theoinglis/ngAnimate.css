@@ -18,3 +18,7 @@
 **3** Add the classes in the 'Classes Applied' section to the element you want to animate
 
 **Done**
+
+### Community
+- **Feedback Welcome**
+- **Contributions Welcome** - Please match the clear structure and styling of the code before submitting a pull request
