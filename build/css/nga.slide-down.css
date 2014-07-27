@@ -1,0 +1,65 @@
+/* line 10, ../../app/styles/ngAnimate/base.scss */
+.nga-default {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 14, ../../app/styles/ngAnimate/base.scss */
+.nga-slow {
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
+/* line 18, ../../app/styles/ngAnimate/base.scss */
+.nga-fast {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 14, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-add, .nga-slide-down-all, .nga-slide-down {
+  position: relative;
+  overflow: hidden;
+}
+/* line 17, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-add.ng-enter, .ng-enter.nga-slide-down-all, .ng-enter.nga-slide-down {
+  top: 42px;
+}
+/* line 20, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-add.ng-enter.ng-enter-active, .ng-enter.ng-enter-active.nga-slide-down-all, .ng-enter.ng-enter-active.nga-slide-down {
+  top: 0;
+}
+
+/* line 24, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-remove, .nga-slide-down-all, .nga-slide-down {
+  position: relative;
+  overflow: hidden;
+}
+/* line 27, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-remove.ng-leave.ng-leave-active, .ng-leave.ng-leave-active.nga-slide-down-all, .ng-leave.ng-leave-active.nga-slide-down {
+  top: 42px;
+}
+/* line 30, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-remove.ng-leave, .ng-leave.nga-slide-down-all, .ng-leave.nga-slide-down {
+  top: 0;
+}
+
+/* line 34, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-move, .nga-slide-down-all, .nga-slide-down {
+  position: relative;
+  overflow: hidden;
+}
+/* line 37, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-move.ng-move, .ng-move.nga-slide-down-all, .ng-move.nga-slide-down {
+  top: 42px;
+}
+/* line 40, ../../app/styles/ngAnimate/nga.slide-down.scss */
+.nga-slide-down-move.ng-move.ng-move-active, .ng-move.ng-move-active.nga-slide-down-all, .ng-move.ng-move-active.nga-slide-down {
+  top: 0;
+}

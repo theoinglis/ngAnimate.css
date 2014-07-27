@@ -8,6 +8,7 @@ angular.module('ngAnimationcssApp')
 
     $scope.transitionsEnabled = Modernizr.csstransitions;
 
+    $scope.activeAnimation = 'slide-left';
     $timeout(function() {
       $scope.animationTypes = [
         {name:'fade'},
@@ -30,11 +31,26 @@ angular.module('ngAnimationcssApp')
     $scope.speed = 'nga-default';
     $scope.stagger = ' nga-stagger';
 
+    $scope.selectMain = function() {
+      for (var i = 0; i < $scope.animationTypes.length; i++) {
+        var animationType = $scope.animationTypes[i];
+        animationType.allActive = null;
+        animationType.aActive = null;
+        animationType.rActive = null;
+        animationType.mActive = null;
+        $scope.refreshClasses();
+      }
+    };
+    $scope.selectComponent = function() {
+      $scope.activeAnimation = null;
+      $scope.refreshClasses();
+    };
+
     $scope.refreshClasses = function() {
       $scope.classes = '';
       for (var i = 0; i < $scope.animationTypes.length; i++) {
         var animationType = $scope.animationTypes[i];
-        if (animationType.active) {
+        if ($scope.activeAnimation == animationType.name) {
           $scope.classes += 'nga-' + animationType.name + ' ';
         }
         if (animationType.allActive) {
@@ -50,5 +66,5 @@ angular.module('ngAnimationcssApp')
           $scope.classes += 'nga-' + animationType.name + '-move ';
         }
       };
-    }
+    };
   }]);

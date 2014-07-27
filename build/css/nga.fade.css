@@ -1,0 +1,50 @@
+/* line 10, ../../app/styles/ngAnimate/base.scss */
+.nga-default {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 14, ../../app/styles/ngAnimate/base.scss */
+.nga-slow {
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
+/* line 18, ../../app/styles/ngAnimate/base.scss */
+.nga-fast {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 4, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-add.ng-enter, .ng-enter.nga-fade-all, .ng-enter.nga-fade {
+  opacity: 0;
+}
+/* line 8, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-add.ng-enter.ng-enter-active, .ng-enter.ng-enter-active.nga-fade-all, .ng-enter.ng-enter-active.nga-fade {
+  opacity: 1;
+}
+
+/* line 13, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-remove.ng-leave.ng-leave-active, .ng-leave.ng-leave-active.nga-fade-all, .ng-leave.ng-leave-active.nga-fade {
+  opacity: 0;
+}
+/* line 16, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-remove.ng-leave, .ng-leave.nga-fade-all, .ng-leave.nga-fade {
+  opacity: 1;
+}
+
+/* line 21, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-move.ng-move, .ng-move.nga-fade-all, .ng-move.nga-fade {
+  opacity: 0;
+}
+/* line 24, ../../app/styles/ngAnimate/nga.fade.scss */
+.nga-fade-move.ng-move.ng-move-active, .ng-move.ng-move-active.nga-fade-all, .ng-move.ng-move-active.nga-fade {
+  opacity: 1;
+}

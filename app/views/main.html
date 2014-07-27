@@ -13,7 +13,7 @@
 
       <!-- Main Table -->
       <div class="form-group has-feedback has-no-label">
-          <input type="text" class="form-control" ng-model="filterText" placeholder="Filter the animation types ...">
+          <input type="text" class="form-control" ng-model="filterText" placeholder="Type here to try the animations ...">
           <span class="glyphicon glyphicon-filter form-control-feedback"></span>
       </div>
       <ul class="list-group animation-list-group">
@@ -49,19 +49,19 @@
               </span> 
             </span> 
             <span class="item-modify item-recommended">
-              <input type="checkbox" ng-model="item.active" ng-change="refreshClasses()">
+              <input type="radio" ng-model="$parent.activeAnimation" ng-value="item.name" ng-change="selectMain()">
             </span>
             <span class="item-modify item-all" >
-              <input type="checkbox" ng-model="item.allActive" ng-change="refreshClasses()">
+              <input type="checkbox" ng-model="item.allActive" ng-change="selectComponent()">
             </span>
             <span class="item-modify item-component" >
-              <input type="checkbox" ng-model="item.aActive" ng-change="refreshClasses()">
+              <input type="checkbox" ng-model="item.aActive" ng-change="selectComponent()">
             </span>
             <span class="item-modify item-component">
-              <input type="checkbox" ng-model="item.rActive" ng-change="refreshClasses()">
+              <input type="checkbox" ng-model="item.rActive" ng-change="selectComponent()">
             </span>
             <span class="item-modify item-component">
-              <input type="checkbox" ng-model="item.mActive" ng-change="refreshClasses()">
+              <input type="checkbox" ng-model="item.mActive" ng-change="selectComponent()">
             </span>
           </span>
         </li>
@@ -79,7 +79,7 @@
             <br/>
             <div class="btn-group" data-toggle="buttons">
 
-              <label class="btn btn-primary" ng-click="speed='nga-default'">
+              <label class="btn btn-primary active" ng-click="speed='nga-default'">
                 <input type="radio" name="speed" id="default"
                        ng-model="speed" value="nga-default"> default
               </label><label class="btn btn-primary" ng-click="speed='nga-fast'">
@@ -100,7 +100,7 @@
               <label class="btn btn-primary" ng-click="stagger=''">
                 <input type="radio" name="stagger" id="none"> none
               </label>
-              <label class="btn btn-primary" ng-click="stagger=' nga-stagger'">
+              <label class="btn btn-primary active" ng-click="stagger=' nga-stagger'">
                 <input type="radio" name="stagger" id="default"> default
               </label>
               <label class="btn btn-primary" ng-click="stagger=' nga-stagger-fast'">

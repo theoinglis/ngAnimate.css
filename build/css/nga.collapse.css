@@ -1,0 +1,69 @@
+/* line 10, ../../app/styles/ngAnimate/base.scss */
+.nga-default {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+/* line 14, ../../app/styles/ngAnimate/base.scss */
+.nga-slow {
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
+/* line 18, ../../app/styles/ngAnimate/base.scss */
+.nga-fast {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 14, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-add, .nga-collapse-all, .nga-collapse {
+  overflow: hidden;
+}
+/* line 17, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-add.ng-enter, .ng-enter.nga-collapse-all, .ng-enter.nga-collapse {
+  height: 0;
+}
+/* line 20, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-add.ng-enter:not(.ng-enter-active), .ng-enter.nga-collapse-all:not(.ng-enter-active), .ng-enter.nga-collapse:not(.ng-enter-active) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 25, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-add.ng-enter.ng-enter-active, .ng-enter.ng-enter-active.nga-collapse-all, .ng-enter.ng-enter-active.nga-collapse {
+  height: 42px;
+}
+
+/* line 29, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-remove, .nga-collapse-all, .nga-collapse {
+  overflow: hidden;
+}
+/* line 32, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-remove.ng-leave.ng-leave-active, .ng-leave.ng-leave-active.nga-collapse-all, .ng-leave.ng-leave-active.nga-collapse {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 37, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-remove.ng-leave, .ng-leave.nga-collapse-all, .ng-leave.nga-collapse {
+  height: 42px;
+}
+
+/* line 41, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-move, .nga-collapse-all, .nga-collapse {
+  overflow: hidden;
+}
+/* line 44, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-move.ng-move, .ng-move.nga-collapse-all, .ng-move.nga-collapse {
+  height: 0;
+}
+/* line 47, ../../app/styles/ngAnimate/nga.collapse.scss */
+.nga-collapse-move.ng-move.ng-move-active, .ng-move.ng-move-active.nga-collapse-all, .ng-move.ng-move-active.nga-collapse {
+  height: 42px;
+}
