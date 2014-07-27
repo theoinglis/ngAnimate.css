@@ -15,7 +15,7 @@ angular.module('ngAnimationcssApp')
         {name:'collapse', condition: heightCondition},
         {name:'slide-up', condition: heightCondition},
         {name:'slide-down', condition: heightCondition},
-        {name:'slide-left', active: true},
+        {name:'slide-left'},
         {name:'slide-right'},
         {name:'squash-vertical', condition: heightCondition},
         {name:'squash-left'},
@@ -66,5 +66,10 @@ angular.module('ngAnimationcssApp')
           $scope.classes += 'nga-' + animationType.name + '-move ';
         }
       };
+
+      // Toggle Single Active
+      $scope.toggleSingleActive = function() {
+        $scope.singleActive = !$scope.singleActive;
+      }
     };
   }]);

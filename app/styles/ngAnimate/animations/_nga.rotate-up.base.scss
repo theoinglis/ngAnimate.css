@@ -11,18 +11,18 @@
 }
 
 @mixin nga-rotate-up-add {
-    &.ng-enter {
+    &.ng-enter, &.ng-hide-remove {
         @include rotate-up-hidden;
     }
-    &.ng-enter.ng-enter-active {
+    &.ng-enter.ng-enter-active, &.ng-hide-remove.ng-hide-remove-active {
         @include rotate-up-visible;
     }
 }
 @mixin nga-rotate-up-remove {
-    &.ng-leave.ng-leave-active {
+    &.ng-leave.ng-leave-active, &.ng-hide-add.ng-hide-add-active {
         @include rotate-up-hidden;
     }
-    &.ng-leave{
+    &.ng-leave, &.ng-hide-add {
         @include rotate-up-visible;
     }
 }

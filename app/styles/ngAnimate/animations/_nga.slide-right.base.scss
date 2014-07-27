@@ -10,18 +10,18 @@
 }
 
 @mixin nga-slide-right-add {
-    &.ng-enter {
+    &.ng-enter, &.ng-hide-remove {
         @include slide-right-hidden;
     }
-    &.ng-enter.ng-enter-active {
+    &.ng-enter.ng-enter-active, &.ng-hide-remove.ng-hide-remove-active {
         @include slide-right-visible;
     }
 }
 @mixin nga-slide-right-remove {
-    &.ng-leave.ng-leave-active {
+    &.ng-leave.ng-leave-active, &.ng-hide-add.ng-hide-add-active {
         @include slide-right-hidden;
     }
-    &.ng-leave{
+    &.ng-leave, &.ng-hide-add {
         @include slide-right-visible;
     }
 }

@@ -121,8 +121,42 @@
           {{speed}}{{stagger}} {{classes}}
         </h4>
       </div>
+
+
+      <!-- Single -->
+      <div class="section pull-left well">
+        <a data-toggle="collapse" data-target="#single"><h4>Single Elements</h4></a>
+        <div id="single" class="collapse in">
+        <button type="button" class="btn btn-primary btn-block" ng-class="{active: singleActive}" ng-click="toggleSingleActive()">
+          Toggle Active
+        </button>
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-if
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-if="singleActive">
+            ng-if
+          </div>
+        </div>
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-show
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-show="singleActive">
+            ng-show
+          </div>
+        </div>
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-hide
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-hide="singleActive">
+            ng-hide
+          </div>
+        </div>
+      </div>
     </div>
-  
+
   </div>
 
     <a class="btn btn-link btn-block" ng-show="false" ng-click="selectRecommended()"><h4>For quick and easy animations select just one 'Recommended' animation</h4></a>

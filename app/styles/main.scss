@@ -194,3 +194,22 @@ body {
 .htu-or {
     padding: 25px;
 }
+
+.single-container {
+    height: 42px;
+    line-height: 42px;
+    margin: 10px 0;
+    position: relative;
+    text-align: center;
+}
+.single-element-bg {
+    position: absolute;
+    height: 100%; width: 100%;
+    color: #CFCFCF;
+}
+.single-element {
+    position: relative;
+    z-index: 1;
+    max-height: 42px;
+    padding: 0;
+}
