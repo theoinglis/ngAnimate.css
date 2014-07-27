@@ -14,22 +14,22 @@
 }
 
 @mixin nga-squash-left-add {
-    &.ng-enter {
+    &.ng-enter, &.ng-hide-remove {
         @include squash-left-hidden;
     }
-    &.ng-enter:not(.ng-enter-active) {
+    &.ng-enter:not(.ng-enter-active), &.ng-hide-remove:not(.ng-hide-remove-active) {
         padding-left: 0;
         padding-right: 0;
     }
-    &.ng-enter.ng-enter-active {
+    &.ng-enter.ng-enter-active, &.ng-hide-remove.ng-hide-remove-active {
         @include squash-left-visible;
     }
 }
 @mixin nga-squash-left-remove {
-    &.ng-leave{
+    &.ng-leave, &.ng-hide-add {
         @include squash-left-visible;
     }
-    &.ng-leave.ng-leave-active {
+    &.ng-leave.ng-leave-active, &.ng-hide-add.ng-hide-add-active {
         @include squash-left-hidden;
         padding-left: 0;
         padding-right: 0;

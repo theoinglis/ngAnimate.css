@@ -4,11 +4,11 @@
   overflow: hidden;
 }
 /* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-add.ng-enter {
+.nga-slide-left-add.ng-enter, .nga-slide-left-add.ng-hide-remove {
   right: 100%;
 }
 /* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-add.ng-enter.ng-enter-active {
+.nga-slide-left-add.ng-enter.ng-enter-active, .nga-slide-left-add.ng-hide-remove.ng-hide-remove-active {
   right: 0;
 }
 
@@ -18,11 +18,11 @@
   overflow: hidden;
 }
 /* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-remove.ng-leave.ng-leave-active {
+.nga-slide-left-remove.ng-leave.ng-leave-active, .nga-slide-left-remove.ng-hide-add.ng-hide-add-active {
   right: 100%;
 }
 /* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-remove.ng-leave {
+.nga-slide-left-remove.ng-leave, .nga-slide-left-remove.ng-hide-add {
   right: 0;
 }
 
@@ -46,19 +46,19 @@
   overflow: hidden;
 }
 /* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-all.ng-enter {
+.nga-slide-left-all.ng-enter, .nga-slide-left-all.ng-hide-remove {
   right: 100%;
 }
 /* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-all.ng-enter.ng-enter-active {
+.nga-slide-left-all.ng-enter.ng-enter-active, .nga-slide-left-all.ng-hide-remove.ng-hide-remove-active {
   right: 0;
 }
 /* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-all.ng-leave.ng-leave-active {
+.nga-slide-left-all.ng-leave.ng-leave-active, .nga-slide-left-all.ng-hide-add.ng-hide-add-active {
   right: 100%;
 }
 /* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */
-.nga-slide-left-all.ng-leave {
+.nga-slide-left-all.ng-leave, .nga-slide-left-all.ng-hide-add {
   right: 0;
 }
 /* line 29, ../../../app/styles/ngAnimate/animations/_nga.slide-left.base.scss */

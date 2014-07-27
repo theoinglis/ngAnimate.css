@@ -3,14 +3,23 @@
 
 .nga-default {
 	@include transition(all $duration-medium $easing-default);
+    &.ng-hide-add, &.ng-hide-remove {
+      	display:block!important;
+    }
 }
 
 .nga-slow {
 	@include transition(all $duration-slow $easing-default);
+    &.ng-hide-add, &.ng-hide-remove {
+      	display:block!important;
+    }
 }
 
 .nga-fast {
 	@include transition(all $duration-fast $easing-default);
+    &.ng-hide-add, &.ng-hide-remove {
+      	display:block!important;
+    }
 }
 
 

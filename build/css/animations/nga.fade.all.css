@@ -1,18 +1,18 @@
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-add.ng-enter {
+.nga-fade-add.ng-enter, .nga-fade-add.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-add.ng-enter.ng-enter-active {
+.nga-fade-add.ng-enter.ng-enter-active, .nga-fade-add.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-remove.ng-leave.ng-leave-active {
+.nga-fade-remove.ng-leave.ng-leave-active, .nga-fade-remove.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-remove.ng-leave {
+.nga-fade-remove.ng-leave, .nga-fade-remove.ng-hide-add {
   opacity: 1;
 }
 
@@ -26,19 +26,19 @@
 }
 
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-all.ng-enter {
+.nga-fade-all.ng-enter, .nga-fade-all.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-all.ng-enter.ng-enter-active {
+.nga-fade-all.ng-enter.ng-enter-active, .nga-fade-all.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-all.ng-leave.ng-leave-active {
+.nga-fade-all.ng-leave.ng-leave-active, .nga-fade-all.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade-all.ng-leave {
+.nga-fade-all.ng-leave, .nga-fade-all.ng-hide-add {
   opacity: 1;
 }
 /* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */

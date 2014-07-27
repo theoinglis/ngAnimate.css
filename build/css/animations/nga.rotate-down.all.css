@@ -6,14 +6,14 @@
   transform: rotateX(0deg);
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-add.ng-enter {
+.nga-rotate-down-add.ng-enter, .nga-rotate-down-add.ng-hide-remove {
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   -o-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-add.ng-enter.ng-enter-active {
+.nga-rotate-down-add.ng-enter.ng-enter-active, .nga-rotate-down-add.ng-hide-remove.ng-hide-remove-active {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
@@ -28,14 +28,14 @@
   transform: rotateX(0deg);
 }
 /* line 22, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-remove.ng-leave.ng-leave-active {
+.nga-rotate-down-remove.ng-leave.ng-leave-active, .nga-rotate-down-remove.ng-hide-add.ng-hide-add-active {
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   -o-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
 /* line 25, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-remove.ng-leave {
+.nga-rotate-down-remove.ng-leave, .nga-rotate-down-remove.ng-hide-add {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
@@ -72,28 +72,28 @@
   transform: rotateX(0deg);
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-all.ng-enter {
+.nga-rotate-down-all.ng-enter, .nga-rotate-down-all.ng-hide-remove {
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   -o-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-all.ng-enter.ng-enter-active {
+.nga-rotate-down-all.ng-enter.ng-enter-active, .nga-rotate-down-all.ng-hide-remove.ng-hide-remove-active {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
 /* line 22, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-all.ng-leave.ng-leave-active {
+.nga-rotate-down-all.ng-leave.ng-leave-active, .nga-rotate-down-all.ng-hide-add.ng-hide-add-active {
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   -o-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
 /* line 25, ../../../app/styles/ngAnimate/animations/_nga.rotate-down.base.scss */
-.nga-rotate-down-all.ng-leave {
+.nga-rotate-down-all.ng-leave, .nga-rotate-down-all.ng-hide-add {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   -o-transform: rotateX(0deg);

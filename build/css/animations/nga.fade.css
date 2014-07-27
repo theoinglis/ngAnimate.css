@@ -1,17 +1,17 @@
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade.ng-enter {
+.nga-fade.ng-enter, .nga-fade.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade.ng-enter.ng-enter-active {
+.nga-fade.ng-enter.ng-enter-active, .nga-fade.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade.ng-leave.ng-leave-active {
+.nga-fade.ng-leave.ng-leave-active, .nga-fade.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-fade.ng-leave {
+.nga-fade.ng-leave, .nga-fade.ng-hide-add {
   opacity: 1;
 }
 /* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */

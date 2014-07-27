@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 /* line 7, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse-add.ng-enter:not(.ng-enter-active) {
+.nga-collapse-add.ng-enter:not(.ng-enter-active), .nga-collapse-add.ng-hide-remove:not(.ng-hide-remove-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -14,7 +14,7 @@
   overflow: hidden;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse-remove.ng-leave.ng-leave-active {
+.nga-collapse-remove.ng-leave.ng-leave-active, .nga-collapse-remove.ng-hide-add.ng-hide-add-active {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -36,13 +36,13 @@
   overflow: hidden;
 }
 /* line 7, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse-all.ng-enter:not(.ng-enter-active) {
+.nga-collapse-all.ng-enter:not(.ng-enter-active), .nga-collapse-all.ng-hide-remove:not(.ng-hide-remove-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse-all.ng-leave.ng-leave-active {
+.nga-collapse-all.ng-leave.ng-leave-active, .nga-collapse-all.ng-hide-add.ng-hide-add-active {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;

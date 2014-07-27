@@ -5,19 +5,19 @@
   overflow: hidden;
 }
 /* line 13, ../../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
-.nga-slide-up.ng-enter {
+.nga-slide-up.ng-enter, .nga-slide-up.ng-hide-remove {
   bottom: 50px;
 }
 /* line 16, ../../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
-.nga-slide-up.ng-enter.ng-enter-active {
+.nga-slide-up.ng-enter.ng-enter-active, .nga-slide-up.ng-hide-remove.ng-hide-remove-active {
   bottom: 0;
 }
 /* line 21, ../../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
-.nga-slide-up.ng-leave.ng-leave-active {
+.nga-slide-up.ng-leave.ng-leave-active, .nga-slide-up.ng-hide-add.ng-hide-add-active {
   bottom: 50px;
 }
 /* line 24, ../../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
-.nga-slide-up.ng-leave {
+.nga-slide-up.ng-leave, .nga-slide-up.ng-hide-add {
   bottom: 0;
 }
 /* line 29, ../../../app/styles/ngAnimate/animations/_nga.slide-up.base.scss */
@@ -29,19 +29,19 @@
   bottom: 0;
 }
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-slide-up.ng-enter {
+.nga-slide-up.ng-enter, .nga-slide-up.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-slide-up.ng-enter.ng-enter-active {
+.nga-slide-up.ng-enter.ng-enter-active, .nga-slide-up.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-slide-up.ng-leave.ng-leave-active {
+.nga-slide-up.ng-leave.ng-leave-active, .nga-slide-up.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-slide-up.ng-leave {
+.nga-slide-up.ng-leave, .nga-slide-up.ng-hide-add {
   opacity: 1;
 }
 /* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
@@ -53,13 +53,13 @@
   opacity: 1;
 }
 /* line 7, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-slide-up.ng-enter:not(.ng-enter-active) {
+.nga-slide-up.ng-enter:not(.ng-enter-active), .nga-slide-up.ng-hide-remove:not(.ng-hide-remove-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-slide-up.ng-leave.ng-leave-active {
+.nga-slide-up.ng-leave.ng-leave-active, .nga-slide-up.ng-hide-add.ng-hide-add-active {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;

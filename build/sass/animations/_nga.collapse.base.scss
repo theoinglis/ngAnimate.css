@@ -4,14 +4,14 @@
 
 
 @mixin nga-collapse-add {
-    &.ng-enter:not(.ng-enter-active) {
+    &.ng-enter:not(.ng-enter-active), &.ng-hide-remove:not(.ng-hide-remove-active) {
         max-height: 0;
         padding-top: 0;
         padding-bottom: 0;
     }
 }
 @mixin nga-collapse-remove {
-    &.ng-leave.ng-leave-active {
+    &.ng-leave.ng-leave-active, &.ng-hide-add.ng-hide-add-active {
         max-height: 0;
         padding-top: 0;
         padding-bottom: 0;

@@ -3,13 +3,13 @@
   overflow: hidden;
 }
 /* line 7, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse.ng-enter:not(.ng-enter-active) {
+.nga-collapse.ng-enter:not(.ng-enter-active), .nga-collapse.ng-hide-remove:not(.ng-hide-remove-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.collapse.base.scss */
-.nga-collapse.ng-leave.ng-leave-active {
+.nga-collapse.ng-leave.ng-leave-active, .nga-collapse.ng-hide-add.ng-hide-add-active {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;

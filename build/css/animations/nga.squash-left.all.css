@@ -6,17 +6,17 @@
   left: 0;
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-add.ng-enter {
+.nga-squash-left-add.ng-enter, .nga-squash-left-add.ng-hide-remove {
   width: 0;
   right: 100%;
 }
 /* line 20, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-add.ng-enter:not(.ng-enter-active) {
+.nga-squash-left-add.ng-enter:not(.ng-enter-active), .nga-squash-left-add.ng-hide-remove:not(.ng-hide-remove-active) {
   padding-left: 0;
   padding-right: 0;
 }
 /* line 24, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-add.ng-enter.ng-enter-active {
+.nga-squash-left-add.ng-enter.ng-enter-active, .nga-squash-left-add.ng-hide-remove.ng-hide-remove-active {
   width: 100%;
   right: 0;
 }
@@ -29,12 +29,12 @@
   left: 0;
 }
 /* line 29, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-remove.ng-leave {
+.nga-squash-left-remove.ng-leave, .nga-squash-left-remove.ng-hide-add {
   width: 100%;
   right: 0;
 }
 /* line 32, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-remove.ng-leave.ng-leave-active {
+.nga-squash-left-remove.ng-leave.ng-leave-active, .nga-squash-left-remove.ng-hide-add.ng-hide-add-active {
   width: 0;
   right: 100%;
   padding-left: 0;
@@ -67,27 +67,27 @@
   left: 0;
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-all.ng-enter {
+.nga-squash-left-all.ng-enter, .nga-squash-left-all.ng-hide-remove {
   width: 0;
   right: 100%;
 }
 /* line 20, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-all.ng-enter:not(.ng-enter-active) {
+.nga-squash-left-all.ng-enter:not(.ng-enter-active), .nga-squash-left-all.ng-hide-remove:not(.ng-hide-remove-active) {
   padding-left: 0;
   padding-right: 0;
 }
 /* line 24, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-all.ng-enter.ng-enter-active {
+.nga-squash-left-all.ng-enter.ng-enter-active, .nga-squash-left-all.ng-hide-remove.ng-hide-remove-active {
   width: 100%;
   right: 0;
 }
 /* line 29, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-all.ng-leave {
+.nga-squash-left-all.ng-leave, .nga-squash-left-all.ng-hide-add {
   width: 100%;
   right: 0;
 }
 /* line 32, ../../../app/styles/ngAnimate/animations/_nga.squash-left.base.scss */
-.nga-squash-left-all.ng-leave.ng-leave-active {
+.nga-squash-left-all.ng-leave.ng-leave-active, .nga-squash-left-all.ng-hide-add.ng-hide-add-active {
   width: 0;
   right: 100%;
   padding-left: 0;

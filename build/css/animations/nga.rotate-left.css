@@ -6,28 +6,28 @@
   transform: rotateY(0deg);
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.rotate-left.base.scss */
-.nga-rotate-left.ng-enter {
+.nga-rotate-left.ng-enter, .nga-rotate-left.ng-hide-remove {
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -o-transform: rotateY(90deg);
   transform: rotateY(90deg);
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.rotate-left.base.scss */
-.nga-rotate-left.ng-enter.ng-enter-active {
+.nga-rotate-left.ng-enter.ng-enter-active, .nga-rotate-left.ng-hide-remove.ng-hide-remove-active {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
 /* line 22, ../../../app/styles/ngAnimate/animations/_nga.rotate-left.base.scss */
-.nga-rotate-left.ng-leave.ng-leave-active {
+.nga-rotate-left.ng-leave.ng-leave-active, .nga-rotate-left.ng-hide-add.ng-hide-add-active {
   -webkit-transform: rotateY(90deg);
   -moz-transform: rotateY(90deg);
   -o-transform: rotateY(90deg);
   transform: rotateY(90deg);
 }
 /* line 25, ../../../app/styles/ngAnimate/animations/_nga.rotate-left.base.scss */
-.nga-rotate-left.ng-leave {
+.nga-rotate-left.ng-leave, .nga-rotate-left.ng-hide-add {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
@@ -48,19 +48,19 @@
   transform: rotateY(0deg);
 }
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-rotate-left.ng-enter {
+.nga-rotate-left.ng-enter, .nga-rotate-left.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-rotate-left.ng-enter.ng-enter-active {
+.nga-rotate-left.ng-enter.ng-enter-active, .nga-rotate-left.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-rotate-left.ng-leave.ng-leave-active {
+.nga-rotate-left.ng-leave.ng-leave-active, .nga-rotate-left.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-rotate-left.ng-leave {
+.nga-rotate-left.ng-leave, .nga-rotate-left.ng-hide-add {
   opacity: 1;
 }
 /* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */

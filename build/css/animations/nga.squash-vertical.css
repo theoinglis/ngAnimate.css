@@ -5,25 +5,25 @@
   bottom: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
-.nga-squash-vertical.ng-enter {
+.nga-squash-vertical.ng-enter, .nga-squash-vertical.ng-hide-remove {
   top: 100%;
 }
 /* line 17, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
-.nga-squash-vertical.ng-enter:not(.ng-enter-active) {
+.nga-squash-vertical.ng-enter:not(.ng-enter-active), .nga-squash-vertical.ng-hide-remove:not(.ng-hide-remove-active) {
   max-height: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 /* line 22, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
-.nga-squash-vertical.ng-enter.ng-enter-active {
+.nga-squash-vertical.ng-enter.ng-enter-active, .nga-squash-vertical.ng-hide-remove.ng-hide-remove-active {
   top: 0;
 }
 /* line 27, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
-.nga-squash-vertical.ng-leave {
+.nga-squash-vertical.ng-leave, .nga-squash-vertical.ng-hide-add {
   top: 0;
 }
 /* line 30, ../../../app/styles/ngAnimate/animations/_nga.squash-vertical.base.scss */
-.nga-squash-vertical.ng-leave.ng-leave-active {
+.nga-squash-vertical.ng-leave.ng-leave-active, .nga-squash-vertical.ng-hide-add.ng-hide-add-active {
   top: 100%;
   max-height: 0;
   padding-top: 0;
@@ -38,19 +38,19 @@
   top: 0;
 }
 /* line 2, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-squash-vertical.ng-enter {
+.nga-squash-vertical.ng-enter, .nga-squash-vertical.ng-hide-remove {
   opacity: 0;
 }
 /* line 6, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-squash-vertical.ng-enter.ng-enter-active {
+.nga-squash-vertical.ng-enter.ng-enter-active, .nga-squash-vertical.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 /* line 11, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-squash-vertical.ng-leave.ng-leave-active {
+.nga-squash-vertical.ng-leave.ng-leave-active, .nga-squash-vertical.ng-hide-add.ng-hide-add-active {
   opacity: 0;
 }
 /* line 14, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
-.nga-squash-vertical.ng-leave {
+.nga-squash-vertical.ng-leave, .nga-squash-vertical.ng-hide-add {
   opacity: 1;
 }
 /* line 19, ../../../app/styles/ngAnimate/animations/_nga.fade.base.scss */
