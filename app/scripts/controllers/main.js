@@ -8,6 +8,8 @@ angular.module('ngAnimationcssApp')
 
     $scope.transitionsEnabled = Modernizr.csstransitions;
 
+    $scope.showAdvanced = false;
+    $scope.toggleShowAdvanced = function() { $scope.showAdvanced = !$scope.showAdvanced; };
     $scope.activeAnimation = 'slide-left';
     $timeout(function() {
       $scope.animationTypes = [
@@ -31,7 +33,14 @@ angular.module('ngAnimationcssApp')
     $scope.speed = 'nga-default';
     $scope.stagger = ' nga-stagger';
 
+    $scope.listItemClicked = function(name) {
+      if (!$scope.showAdvanced && name) {
+        $scope.activeAnimation = name;
+        $scope.selectMain(name);
+      }
+    }
     $scope.selectMain = function() {
+      $timeout(function(){ $scope.toggleSingleActive(); });
       for (var i = 0; i < $scope.animationTypes.length; i++) {
         var animationType = $scope.animationTypes[i];
         animationType.allActive = null;

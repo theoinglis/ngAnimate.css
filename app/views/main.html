@@ -1,5 +1,5 @@
 <div>
-  <h4 class="title" ng-show="transitionsEnabled">Try it now. Filter the table below</h4>
+  <h4 class="title" ng-show="transitionsEnabled">Try it now. Enter text in the filter below.</h4>
   <h4 class="title" ng-show="!transitionsEnabled">
     Unfortunately your browser doesn't support css transitions,<br />
     so the animations won't work<br />
@@ -13,7 +13,7 @@
 
       <!-- Main Table -->
       <div class="form-group has-feedback has-no-label">
-          <input type="text" class="form-control" ng-model="filterText" placeholder="Type here to try the animations ...">
+          <input type="text" class="form-control" ng-model="filterText" placeholder="Type here to view the ng-repeat animations ...">
           <span class="glyphicon glyphicon-filter form-control-feedback"></span>
       </div>
       <ul class="list-group animation-list-group">
@@ -26,21 +26,21 @@
             <span class="item-modify item-recommended" tooltip="Recommended - This animation is quick to set up and will look good by itself">
               R
             </span>
-            <span class="item-modify item-all" tooltip="All - The animation will apply when the element is being added, removed and moved; and might be improved by combining with other animations">
+            <span class="item-modify item-all" tooltip="All - The animation will apply when the element is being added, removed and moved; and might be improved by combining with other animations" ng-if="showAdvanced" ng-cloak>
               A
             </span>
-            <span class="item-modify item-component" tooltip="Add - The animation will apply when the element is being added and might be improved by combining with other animations">
+            <span class="item-modify item-component" tooltip="Add - The animation will apply when the element is being added and might be improved by combining with other animations" ng-if="showAdvanced" ng-cloak>
               A
             </span>
-            <span class="item-modify item-component" tooltip="Remove - The animation will apply when the element is being removed and might be improved by combining with other animations">
+            <span class="item-modify item-component" tooltip="Remove - The animation will apply when the element is being removed and might be improved by combining with other animations" ng-if="showAdvanced" ng-cloak>
               R
             </span>
-            <span class="item-modify item-component" tooltip="Move - The animation will apply when the element is being moved and might be improved by combining with other animations">
+            <span class="item-modify item-component" tooltip="Move - The animation will apply when the element is being moved and might be improved by combining with other animations" ng-if="showAdvanced" ng-cloak>
               M
             </span>
           </span>
         </li>
-        <li class="list-group-item {{speed}}{{stagger}} {{classes}}" ng-repeat="item in animationTypes | filter:{name:filterText}">
+        <li class="list-group-item {{speed}}{{stagger}} {{classes}}" ng-repeat="item in animationTypes | filter:{name:filterText}" ng-click="listItemClicked(item.name)">
           <span class="list-group-item-text">{{item.name}}</span>
           <span class="pull-right">
             <span class="item-modify" >
@@ -51,16 +51,16 @@
             <span class="item-modify item-recommended">
               <input type="radio" ng-model="$parent.activeAnimation" ng-value="item.name" ng-change="selectMain()">
             </span>
-            <span class="item-modify item-all" >
+            <span class="item-modify item-all" ng-if="showAdvanced" ng-cloak>
               <input type="checkbox" ng-model="item.allActive" ng-change="selectComponent()">
             </span>
-            <span class="item-modify item-component" >
+            <span class="item-modify item-component" ng-if="showAdvanced" ng-cloak>
               <input type="checkbox" ng-model="item.aActive" ng-change="selectComponent()">
             </span>
-            <span class="item-modify item-component">
+            <span class="item-modify item-component" ng-if="showAdvanced" ng-cloak>
               <input type="checkbox" ng-model="item.rActive" ng-change="selectComponent()">
             </span>
-            <span class="item-modify item-component">
+            <span class="item-modify item-component" ng-if="showAdvanced" ng-cloak>
               <input type="checkbox" ng-model="item.mActive" ng-change="selectComponent()">
             </span>
           </span>
@@ -68,6 +68,40 @@
       </ul>
     </div>
     <div class="col-sm-5">
+
+      <!-- Single -->
+      <div class="section pull-left well">
+        <a data-toggle="collapse" data-target="#single"><h4>Single Elements</h4></a>
+        <div id="single" class="collapse in">
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-if
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-if="singleActive">
+            ng-if
+          </div>
+        </div>
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-show
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-show="singleActive">
+            ng-show
+          </div>
+        </div>
+        <div class="single-container">
+          <div class="single-element-bg">
+            ng-hide
+          </div>
+          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-hide="singleActive">
+            ng-hide
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-block" ng-class="{active: singleActive}" ng-click="toggleSingleActive()">
+          Toggle Animation
+        </button>
+      </div>
+    </div>
 
       <!-- Modifiers section -->
       <div class="section pull-left well">
@@ -122,40 +156,13 @@
         </h4>
       </div>
 
-
-      <!-- Single -->
+      <!-- Advanced -->
       <div class="section pull-left well">
-        <a data-toggle="collapse" data-target="#single"><h4>Single Elements</h4></a>
-        <div id="single" class="collapse in">
-        <button type="button" class="btn btn-primary btn-block" ng-class="{active: singleActive}" ng-click="toggleSingleActive()">
-          Toggle Active
+        <a data-toggle="collapse" data-target="#advanced"><h4>Advanced Customisation</h4></a>
+        <button type="button" class="btn btn-primary btn-block" ng-class="{active: showAdvanced}" ng-click="toggleShowAdvanced()">
+          <span ng-if="showAdvanced">Disable</span><span ng-if="!showAdvanced">Enable</span>
         </button>
-        <div class="single-container">
-          <div class="single-element-bg">
-            ng-if
-          </div>
-          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-if="singleActive">
-            ng-if
-          </div>
-        </div>
-        <div class="single-container">
-          <div class="single-element-bg">
-            ng-show
-          </div>
-          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-show="singleActive">
-            ng-show
-          </div>
-        </div>
-        <div class="single-container">
-          <div class="single-element-bg">
-            ng-hide
-          </div>
-          <div class="alert alert-info single-element {{speed}} {{classes}}" ng-hide="singleActive">
-            ng-hide
-          </div>
-        </div>
       </div>
-    </div>
 
   </div>
 
