@@ -5,6 +5,7 @@
   "ignore": [
     "app",
     "dist",
+    "test",
     "build/css",
     "build/sass",
     ".bowerrc",
