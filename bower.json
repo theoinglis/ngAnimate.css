@@ -1,22 +1,40 @@
 {
-  "name": "ng-animationcss",
-  "version": "0.0.0",
+  "name": "ngAnimateCss",
+  "version": "0.0.1",
+  "ignore": [
+    "app",
+    "dist",
+    "build/css",
+    "build/sass",
+    ".bowerrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jshintrc",
+    ".travis.yml",
+    "bower.json",
+    "Gruntfile.js",
+    "karma-e2e.conf.js",
+    "karma.conf.js",
+    "package.json",
+    "README.md",
+  ],
   "dependencies": {
     "angular": "1.2.6",
+    "angular-animate": "1.2.15",
+  },
+  "devDependencies": {
     "json3": "~3.2.6",
     "es5-shim": "~2.1.0",
     "jquery": "~1.10.2",
     "bootstrap": "~3.1.0",
+    "angular-mocks": "1.2.6",
+    "angular-scenario": "1.2.6",
     "angular-resource": "1.2.6",
     "angular-cookies": "1.2.6",
     "angular-sanitize": "1.2.6",
     "angular-route": "1.2.6",
-    "angular-animate": "1.2.15",
-    "modernizr": "~2.7.2"
-  },
-  "devDependencies": {
-    "angular-mocks": "1.2.6",
-    "angular-scenario": "1.2.6"
+    "modernizr": "~2.7.2",
   },
   "resolutions": {
     "angular": "1.2.15"
