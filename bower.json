@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "angular": "1.2.6",
-    "angular-animate": "1.2.15",
+    "angular-animate": "1.2.15"
   },
   "devDependencies": {
     "json3": "~3.2.6",
@@ -34,7 +34,7 @@
     "angular-cookies": "1.2.6",
     "angular-sanitize": "1.2.6",
     "angular-route": "1.2.6",
-    "modernizr": "~2.7.2",
+    "modernizr": "~2.7.2"
   },
   "resolutions": {
     "angular": "1.2.15"
