@@ -1,5 +1,5 @@
 {
-  "name": "ngAnimateCss",
+  "name": "ngAnimate.css",
   "version": "0.0.1",
   "ignore": [
     "app",
@@ -17,7 +17,7 @@
     "karma-e2e.conf.js",
     "karma.conf.js",
     "package.json",
-    "README.md",
+    "README.md"
   ],
   "dependencies": {
     "angular": "1.2.6",
