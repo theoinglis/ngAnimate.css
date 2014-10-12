@@ -1,7 +1,7 @@
 {
   "name": "angular-animate-css",
   "version": "0.0.2",
-  "main": "dist/nga.min.css",
+  "main": "build/nga.css",
   "ignore": [
     "app",
     "dist",
