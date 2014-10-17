@@ -1,7 +1,21 @@
 {
   "name": "angular-animate-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "build/nga.css",
+  "homepage": "https://github.com/theoinglis/ngAnimate.css",
+  "description": "An easy way to animate your angular apps",
+  "authors": [
+    "theoinglis"
+  ],
+  "keywords": [
+    "ngAnimate",
+    "animate.css",
+    "animate.scss",
+    "angular",
+    "angular-animate",
+    "animate",
+    "css",
+  ],
   "ignore": [
     "app",
     "dist",
@@ -22,8 +36,8 @@
     "README.md"
   ],
   "dependencies": {
-    "angular": "1.2.15",
-    "angular-animate": "1.2.15"
+    "angular": "~1.2.0",
+    "angular-animate": "~1.2.0",
   },
   "devDependencies": {
     "json3": "~3.2.6",
