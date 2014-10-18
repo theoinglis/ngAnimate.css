@@ -14,7 +14,7 @@
     "angular",
     "angular-animate",
     "animate",
-    "css",
+    "css"
   ],
   "ignore": [
     "app",
@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.0",
-    "angular-animate": "~1.2.0",
+    "angular-animate": "~1.2.0"
   },
   "devDependencies": {
     "json3": "~3.2.6",
