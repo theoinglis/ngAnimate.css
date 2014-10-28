@@ -3,9 +3,6 @@
 angular.module('Helpers', []);
 
 angular.module('ngAnimationcssApp', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
   'ngRoute',
   'ngAnimate',
   'Helpers'
