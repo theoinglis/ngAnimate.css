@@ -1,6 +1,6 @@
 {
   "name": "angular-animate-css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "build/nga.css",
   "homepage": "https://github.com/theoinglis/ngAnimate.css",
   "description": "An easy way to animate your angular apps",
